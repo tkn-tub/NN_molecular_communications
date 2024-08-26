@@ -3,7 +3,9 @@
 Following the example in [1], we implemented the RL-based synchronizer in MATLAB and Simulink.
 For our implementation, we used a particle simulation of the Media Modulation (MM) testbed introduced in [2] showing that the reported approach can be transferred to liquid-based MC scenarios.
 
-Our synchronizer follows the structure displayed in in the figure below.
+<img src="https://github.com/user-attachments/assets/a18988ac-9186-4887-8652-adb910803bd2" width="400">
+
+Our synchronizer follows the structure displayed in the figure above.
 It employs a PPO agent with an LSTM layers.
 A pretrained agent for the MM testbed is available.
 It was trained with time series collected from the particle simulator for 245000 5-bit-frames in 35000 episodes.
