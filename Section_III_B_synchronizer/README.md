@@ -3,7 +3,7 @@
 Following the example in [1], we implemented the RL-based synchronizer in MATLAB and Simulink.
 For our implementation, we used a particle simulation of the Media Modulation (MM) testbed introduced in [2] showing that the reported approach can be transferred to liquid-based MC scenarios.
 
-<img src="https://github.com/user-attachments/assets/a18988ac-9186-4887-8652-adb910803bd2" width="400">
+<img src="https://github.com/user-attachments/assets/471b8047-4c24-4e7f-b0bb-fd862cdb5c8c" width="400">
 
 Our synchronizer follows the structure displayed in the figure above.
 It employs a PPO agent with an LSTM layers.
@@ -16,3 +16,4 @@ For comparison, a matching implementation of the filter-based maximum likelihood
 [2] L. Brand, M. Garkisch, S. Lotter, et al., “Media Modulation Based Molecular Communication,” IEEE Transactions on Communications, vol. 70, no. 11, pp. 7207–7223, Nov. 2022.
 
 [3] V. Jamali, A. Ahmadzadeh, and R. Schober, “Symbol Synchronization for Diffusion-Based Molecular Communications,” IEEE Transactions on NanoBioscience, vol. 16, no. 8, pp. 873–887, Dec. 2017
+
