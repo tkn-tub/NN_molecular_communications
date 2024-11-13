@@ -1,0 +1,81 @@
+% input_length = 1; % Length of the input sequence
+% d_model = 5;       % Embedding dimension
+% num_heads = 1;      % Number of attention heads
+% num_layers = 1;     % Number of encoder layers
+% dropout = 0.1;      % Dropout rate
+% 
+% %Create the layer graph variable to contain the network layers.
+% lgraph_Transformer = layerGraph();
+% 
+% % Add the branches of the network to the layer graph. Each branch is a linear array of layers.
+% tempLayers = [
+%     sequenceInputLayer(input_length,"Name","input")
+%     positionEmbeddingLayer(5,5,"Name","positionembed")];
+% lgraph_Transformer = addLayers(lgraph_Transformer,tempLayers);
+% 
+% tempLayers = selfAttentionLayer(1,10,"Name","selfattention");
+% lgraph_Transformer = addLayers(lgraph_Transformer,tempLayers);
+% 
+% tempLayers = [
+%     additionLayer(2,"Name","addition_1")
+%     layerNormalizationLayer("Name","layernorm")];
+% lgraph_Transformer = addLayers(lgraph_Transformer,tempLayers);
+% 
+% tempLayers = fullyConnectedLayer(5,"Name","fc");
+% lgraph_Transformer = addLayers(lgraph_Transformer,tempLayers);
+% 
+% tempLayers = [
+%     additionLayer(2,"Name","addition")
+%     fullyConnectedLayer(2,"Name","fc_1")
+%     layerNormalizationLayer("Name","layernorm_1")
+%     softmaxLayer("Name","softmax")
+%     classificationLayer("Name","classification")];
+% lgraph_Transformer = addLayers(lgraph_Transformer,tempLayers);
+% 
+% % clean up helper variable
+% clear tempLayers;
+% 
+% % Connect all the branches of the network to create the network graph.
+% lgraph_Transformer = connectLayers(lgraph_Transformer,"positionembed","selfattention");
+% lgraph_Transformer = connectLayers(lgraph_Transformer,"positionembed","addition_1/in2");
+% lgraph_Transformer = connectLayers(lgraph_Transformer,"selfattention","addition_1/in1");
+% lgraph_Transformer = connectLayers(lgraph_Transformer,"layernorm","fc");
+% lgraph_Transformer = connectLayers(lgraph_Transformer,"layernorm","addition/in2");
+% lgraph_Transformer = connectLayers(lgraph_Transformer,"fc","addition/in1");
+% 
+% % View the network structure
+% analyzeNetwork(lgraph_Transformer);
+% 
+% figure;
+% plot(lgraph_Transformer); grid on;
+% set(gca,'FontSize',fontsize);
+% title("Transformer");
+
+________________________________________________________________________________________________
+Model 2
+numChannels = 1;
+
+embeddingOutputSize = 64;
+numWords = 128;
+maxPosition = 128;
+
+numHeads = 4;
+numKeyChannels = 4*embeddingOutputSize;
+
+layers = [ 
+    sequenceInputLayer(numChannels,Name="input")
+    wordEmbeddingLayer(embeddingOutputSize,numWords,Name="word-emb")
+    positionEmbeddingLayer(embeddingOutputSize,maxPosition,Name="pos-emb");
+    additionLayer(2,Name="add")
+    selfAttentionLayer(numHeads,numKeyChannels,AttentionMask="causal")
+    fullyConnectedLayer(numWords)
+    fullyConnectedLayer(2)
+    softmaxLayer
+    classificationLayer];
+lgraph_Attention = layerGraph(layers);
+
+lgraph_Attention = connectLayers(lgraph_Attention,"word-emb","add/in2");
+
+_______________________________________________________________________________________________________
+
+Matlab Create Bidirectional LSTM (BiLSTM) Function
