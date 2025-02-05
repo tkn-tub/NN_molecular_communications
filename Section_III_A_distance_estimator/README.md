@@ -15,22 +15,36 @@ This project develops a NN module to estimate the distance among cells. The proj
 Fig. 1: Components for estimating the distance among cell using a feedforward NN.
 </p>
 
-The dataset is created with the code provided by the authors in [^1],
+The dataset is created with the code provided by the authors in [^1] comprising the number of released vesicles at the Immune cell with time, as illustrated in Fig. 1a. This number of vesicles is dependent on the the distance to the Tumor cell, which is the parameter to estimate. The dataset is processed to evaluate the slope, see the subfigure in Fig. 1a, from the slope the peak amplitude and location are taken as the two features to train and deploy the neural network.
+
+The NN is a low-complex feedfodward architecture implemented in Matlab and comprises a single layer and two nodes. The output of the NN is the predicted distance, as illustrated in Fig. 1c, the model devise a quite accurate estimator.
 
 ## Installation
+This code is tested in Matlab 2023b, and the toolboxes to be installed are listed within the table below.
+
+| Matlab Toolbox  | Version |
+| ------------- | ------------- |
+| System Identification Toolbox  | 23.2  |
+| Deep Learning Toolbox  | 23.2  |
+|'Statistics and Machine Learning Toolbox|23.2|
 
 ## Usage
 
+This project directly runs from the file `A_Master_File.mlx`, where the NN model is trained and deployed. This file calls to the other two project files `Parameters.mlx` and optionally to `Dataset_compiler.mlx`. By default, the code loads the stored file `Dataset_cell2cell.mat`, accesible on the [IEEE DataPort portal in this link](https://ieee-dataport.org/documents/dataset-cell-cell-communications) after loggin.
+
 ## Features
+- **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx` uses
 
 ## Contributing
 
 ## License
 
 ## Acknowledgements
-We want to acknoledge the support provided by 
+We want to acknoledge the support provided by Mohammad Zoofaghari, author of the paper in [^1] for giving us the code to generate the dataset.
 
 ## References
-[^1]: 
+[^1]: M. Zoofaghari, F. Pappalardo, M. Damrath, and I. Balasingham,
+“Modeling Extracellular Vesicles-Mediated Interactions of Cells in the Tumor Microenvironment,” IEEE Transactions on NanoBioscience,
+vol. 23, no. 1, pp. 71–80, Jan. 2024. [Link](https://ieeexplore.ieee.org/document/10149035)
 
 Contact Information
