@@ -34,7 +34,7 @@ Interested contributors can contact the project owner. Please refer to the Conta
 
     [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github)](https://github.com/TUGAY_USER)
 
-    [![Email](https://img.shields.io/badge/Email-basaran@ccs-labs.org-D14836?logo=gmail&logoColor=white)](mailto:basaran@ccs-labs.org)
+    [![Email](https://img.shields.io/badge/Email-email-D14836?logo=gmail&logoColor=white)](mailto:basaran@ccs-labs.org)
 
     [![LinkedIn](https://img.shields.io/badge/LinkedIn-osmantugaybasaran-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/osmantugaybasaran/)
 
