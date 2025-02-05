@@ -27,7 +27,7 @@ For comparison, a matching implementation of the filter-based maximum likelihood
 ## Features
 
 ## Contributing
-Interest contributers can be in contact with the project owner, see the Contact Information below. We identify further developments to ....
+Interested contributers can be in contact with the project owner, see the Contact Information below. We identify further developments to ....
 
 
 ## License
