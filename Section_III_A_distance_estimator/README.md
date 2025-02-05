@@ -2,9 +2,7 @@
 This project develops a neural network (NN) module for detecting the distance among cells.
 
 ## Description
-This project develops a NN module to estimate the distance among cells. The project features the application where the distance to a tumor cell is estimated based on the vesicles-amount observed at the immune cell. Cancer and immune cells exchange vesicles in
-the proximity of each others, and the concentration level of vesicles can be used to estimate distance as it is a distance dependent process.
-
+This project develops a NN module to estimate the distance among cells. The project features the application where the distance to a tumor cell is estimated based on the vesicles-amount observed at the immune cell; see Fig. 1 below. Cancer and immune cells exchange vesicles in the proximity of each others, and the concentration level of vesicles can be used to estimate distance as it is a distance dependent process.
 
 <figure>
     <p align="center">
@@ -15,16 +13,22 @@ the proximity of each others, and the concentration level of vesicles can be use
 Fig. 1: Components for estimating the distance among cell using a feedforward NN.
 </p>
 
-Installation
+The dataset is created with the code provided by the authors in [^1],
 
-Usage
+## Installation
 
-Features
+## Usage
 
-Contributing
+## Features
 
-License
+## Contributing
 
-Acknowledgements
+## License
+
+## Acknowledgements
+We want to acknoledge the support provided by 
+
+## References
+[^1]: 
 
 Contact Information
