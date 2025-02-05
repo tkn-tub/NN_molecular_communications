@@ -8,7 +8,7 @@ the proximity of each others, and the concentration level of vesicles can be use
 
 <figure>
     <p align="center">
-        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/images/distance_estimator.png?raw=true" alt="nn" width="400">
+        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/images/distance_estimator.png?raw=true" alt="nn" width="500">
     </p>
 </figure>
 <p align="center">
