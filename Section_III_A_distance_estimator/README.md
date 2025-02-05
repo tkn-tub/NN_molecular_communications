@@ -1,8 +1,6 @@
 # Distance Estimator
 This project develops a neural network (NN) module for detecting the distance among cells.
 
-bibliography: references.bib
-
 ## Description
 This project develops a NN module to estimate the distance among cells. The project features the application where the distance to a tumor cell is estimated based on the vesicles-amount observed at the immune cell; see Fig. 1 below. Cancer and immune cells exchange vesicles in the proximity of each others, and the concentration level of vesicles can be used to estimate distance as it is a distance dependent process.
 
@@ -26,18 +24,21 @@ This code is tested in Matlab 2023b, and the toolboxes to be installed are liste
 | ------------- | ------------- |
 | System Identification Toolbox  | 23.2  |
 | Deep Learning Toolbox  | 23.2  |
-|'Statistics and Machine Learning Toolbox|23.2|
+|Statistics and Machine Learning Toolbox|23.2|
 
 ## Usage
 
 This project directly runs from the file `A_Master_File.mlx`, where the NN model is trained and deployed. This file calls to the other two project files `Parameters.mlx` and optionally to `Dataset_compiler.mlx`. By default, the code loads the stored file `Dataset_cell2cell.mat`, accesible on the [IEEE DataPort portal in this link](https://ieee-dataport.org/documents/dataset-cell-cell-communications) after loggin.
 
 ## Features
-- **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx` uses
+- **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx`, originally provided by Mohammad Zoofaghari, follows the mathematical developments in [^1].
+- **Low-complex distance estimator to a cancer cell:** This solution features a 2 nodes NN to accurately estimate the distance to a cancer cell from a neighbord immune cell.
 
 ## Contributing
+Interest contributers can be in contact with the project owner, see the Contact Information below. We identify further developments for more complex scenarios like estimating the distance to multiple cancer cells.
 
 ## License
+![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
 
 ## Acknowledgements
 We want to acknoledge the support provided by Mohammad Zoofaghari, author of the paper in [^1] for giving us the code to generate the dataset.
@@ -47,4 +48,14 @@ We want to acknoledge the support provided by Mohammad Zoofaghari, author of the
 “Modeling Extracellular Vesicles-Mediated Interactions of Cells in the Tumor Microenvironment,” IEEE Transactions on NanoBioscience,
 vol. 23, no. 1, pp. 71–80, Jan. 2024. [Link](https://ieeexplore.ieee.org/document/10149035)
 
-Contact Information
+## Contact Information
+
+- **Name:** Jorge Torres Gómez
+
+    [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github)](https://github.com/jorge-torresgomez)
+
+    [![Email](https://img.shields.io/badge/Email-jorge.torresgomez@ieee.org-D14836?logo=gmail&logoColor=white)](mailto:jorge.torresgomez@ieee.org)
+
+    [![LinkedIn](https://img.shields.io/badge/LinkedIn-torresgomez-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/torresgomez/)
+
+    [![Website Badge](https://img.shields.io/badge/Website-Homepage-blue?logo=web)](https://www.tkn.tu-berlin.de/team/torres-gomez/)
