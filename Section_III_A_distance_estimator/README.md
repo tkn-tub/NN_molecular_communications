@@ -9,12 +9,11 @@ the proximity of each others, and the concentration level of vesicles can be use
 <figure>
     <p align="center">
         <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/images/distance_estimator.png?raw=true" alt="nn" width="400">
-        <figcaption>Fig. 1: Components for estimating the distance among cell using a feedforward NN.</figcaption>
     </p>
 </figure>
-
-
-<img src="" width="400">
+<p align="center">
+Fig. 1: Components for estimating the distance among cell using a feedforward NN.
+</p>
 
 Installation
 
