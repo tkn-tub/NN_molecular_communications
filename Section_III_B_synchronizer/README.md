@@ -3,7 +3,7 @@
 Following the example in [1], we implemented the RL-based synchronizer in MATLAB and Simulink.
 For our implementation, we used a particle simulation of the Media Modulation (MM) testbed introduced in [2] showing that the reported approach can be transferred to liquid-based MC scenarios.
 
-<img src="hhttps://github.com/tkn-tub/NN_molecular_communications/blob/main/images/synch.jpg?raw=true" width="400">
+<img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/images/synch.jpg?raw=true" width="400">
 
 Our synchronizer follows the structure displayed in the figure above.
 It employs a PPO agent with an LSTM layers.
