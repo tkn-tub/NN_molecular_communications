@@ -2,8 +2,8 @@
 Digital synchronizer in molecular communication channels
 
 ## Description
-Following the example in [^1], we implemented the Reinforcement Learning (RL)-based synchronizer in MATLAB and Simulink.
-For our implementation, we used a particle simulation of the Media Modulation (MM) testbed introduced in [^2] showing that the reported approach can be transferred to liquid-based MC scenarios.
+Following the example in our previous work <sup>[[1]](#fn1)</sup>, we implemented the Reinforcement Learning (RL)-based synchronizer in MATLAB and Simulink.
+For our implementation, we used a particle simulation of the Media Modulation (MM) testbed by Brand et al. <sup>[[2]](#fn2)</sup> showing that the reported approach can be transferred to liquid-based MC scenarios.
 
 <figure>
     <p align="center">
@@ -18,7 +18,7 @@ Our synchronizer follows the structure displayed in the figure above.
 It employs a PPO agent with LSTM layers.
 A pre-trained agent for the MM testbed is available.
 It was trained with time series collected from the particle simulator for 245000 5-bit-frames in 35000 episodes.
-For comparison, a matching implementation of the filter-based maximum likelihood estimator [^3] is included.
+For comparison, a matching implementation of the filter-based maximum likelihood estimator <sup>[[3]](#fn3)</sup> is included.
 
 ## Installation
 
@@ -81,7 +81,7 @@ Additionally, the following directories exist:
 
 ## Features
 
-- **ML-based solution to synchronization in molecular communication:** We tackle the problem of synchronization in a changing environment with the application of Machine Learning and present an RL-based synchronizer for the Media Modulation MC testbed in [^2].
+- **ML-based solution to synchronization in molecular communication:** We tackle the problem of synchronization in a changing environment with the application of Machine Learning and present an RL-based synchronizer for the Media Modulation MC testbed <sup>[[2]](#fn2)</sup>.
 The developed RL-agent continually adapts a decoding threshold to detect transmitted synchronization frames.
 - **Comparative evaluation with a filter-based maximum likelihood synchronizer:** We comparatively evaluate the RL-based synchronizer's True Positive Rate, False Positive Rate, and Symbol Time Offset performance versus a filter-based maximum likelihood synchronizer.
 
@@ -94,11 +94,11 @@ Interested contributors can be in contact with the project owner, see the Contac
 
 ## References
 
-[^1] L. Y. Debus, P. Hofmann, J. Torres Gómez, F. H. P. Fitzek, and F.Dressler, “Synchronized Relaying in Molecular Communication: An AI-based Approach using a Mobile Testbed Setup,” in 8th Workshop on Molecular Communications (WMC 2024), Oslo, Norway, Apr. 2024.
+<a name="fn1">[1]</a>: L. Y. Debus, P. Hofmann, J. Torres Gómez, F. H. P. Fitzek, and F.Dressler, “Synchronized Relaying in Molecular Communication: An AI-based Approach using a Mobile Testbed Setup,” in 8th Workshop on Molecular Communications (WMC 2024), Oslo, Norway, Apr. 2024.
 
-[^2] L. Brand, M. Garkisch, S. Lotter, et al., “Media Modulation Based Molecular Communication,” IEEE Transactions on Communications, vol. 70, no. 11, pp. 7207–7223, Nov. 2022.
+<a name="fn2">[2]</a> L. Brand, M. Garkisch, S. Lotter, et al., “Media Modulation Based Molecular Communication,” IEEE Transactions on Communications, vol. 70, no. 11, pp. 7207–7223, Nov. 2022.
 
-[^3] V. Jamali, A. Ahmadzadeh, and R. Schober, “Symbol Synchronization for Diffusion-Based Molecular Communications,” IEEE Transactions on NanoBioscience, vol. 16, no. 8, pp. 873–887, Dec. 2017
+<a name="fn3">[3]</a> V. Jamali, A. Ahmadzadeh, and R. Schober, “Symbol Synchronization for Diffusion-Based Molecular Communications,” IEEE Transactions on NanoBioscience, vol. 16, no. 8, pp. 873–887, Dec. 2017
 
 ## Contact Information
 
