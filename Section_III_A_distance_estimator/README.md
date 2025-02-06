@@ -31,7 +31,7 @@ This code is tested in MATLAB 2023b, and the required toolboxes are listed in th
 This project directly runs from the file `A_Master_File.mlx`, where the NN model is trained and deployed. This file calls to the other two project files `Parameters.mlx` and optionally to `Dataset_compiler.mlx`. By default, the code loads the stored file `Dataset_cell2cell.mat`, accesible on the [IEEE DataPort portal at this link](https://ieee-dataport.org/documents/dataset-cell-cell-communications) after loggin.
 
 ## Features
-- **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx`, originally provided by Mohammad Zoofaghari, follows the mathematical developments in [^1].
+- **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx`, originally provided by Mohammad Zoofaghari, follows the mathematical developments in <sup>[[1]](#fn1)</sup>.
 - **Low-complex distance estimator to a cancer cell:** This solution features a 2 nodes NN to accurately estimate the distance to a cancer cell from a neighbord immune cell.
 
 ## Contributing
@@ -44,7 +44,7 @@ Interested contributors can contact the project owner. Please refer to the Conta
 We want to acknoledge the support provided by Mohammad Zoofaghari, author of the paper in [^1] for giving us the code to generate the dataset.
 
 ## References
-[^1]: M. Zoofaghari, F. Pappalardo, M. Damrath, and I. Balasingham, “Modeling Extracellular Vesicles-Mediated Interactions of Cells in the Tumor Microenvironment,” IEEE Transactions on NanoBioscience,
+<a name="fn1">[1]</a>: M. Zoofaghari, F. Pappalardo, M. Damrath, and I. Balasingham, “Modeling Extracellular Vesicles-Mediated Interactions of Cells in the Tumor Microenvironment,” IEEE Transactions on NanoBioscience,
 vol. 23, no. 1, pp. 71–80, Jan. 2024. [Link](https://ieeexplore.ieee.org/document/10149035)
 
 ## Contact Information
