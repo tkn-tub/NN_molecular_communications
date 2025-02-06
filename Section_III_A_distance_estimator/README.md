@@ -44,8 +44,7 @@ Interested contributors can contact the project owner. Please refer to the Conta
 We want to acknoledge the support provided by Mohammad Zoofaghari, author of the paper in [^1] for giving us the code to generate the dataset.
 
 ## References
-[^1]: M. Zoofaghari, F. Pappalardo, M. Damrath, and I. Balasingham,
-“Modeling Extracellular Vesicles-Mediated Interactions of Cells in the Tumor Microenvironment,” IEEE Transactions on NanoBioscience,
+[^1]: M. Zoofaghari, F. Pappalardo, M. Damrath, and I. Balasingham, “Modeling Extracellular Vesicles-Mediated Interactions of Cells in the Tumor Microenvironment,” IEEE Transactions on NanoBioscience,
 vol. 23, no. 1, pp. 71–80, Jan. 2024. [Link](https://ieeexplore.ieee.org/document/10149035)
 
 ## Contact Information
