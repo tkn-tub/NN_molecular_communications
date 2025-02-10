@@ -6,7 +6,7 @@ An AEC consists of two Neural Networks (NN), known as the encoder and decoder, w
 
 <figure>
     <p align="center">
-<img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/autoencoder.jpg?raw=true" width="400">
+<img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/autoencoder.png?raw=true" width="400">
     </p>
 </figure>
 <p align="center">
