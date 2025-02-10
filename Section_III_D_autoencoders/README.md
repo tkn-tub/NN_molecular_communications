@@ -40,7 +40,7 @@ This project runs directly from the file AEC_IIRChannelIdentification.ipynb. In 
 
 
 ## Contributing
-Interested contributors can contact the project owner. Please refer to the Contact Information below. We identify further developments to ...
+Interested contributors can contact the project owner. Please refer to the Contact Information below. 
 
 ## License
 ![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
