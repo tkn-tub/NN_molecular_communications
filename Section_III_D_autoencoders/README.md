@@ -21,7 +21,7 @@ The AEC is trained using a data-driven molecular channel representation, followi
 <div align="center">
     <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/AEC_data_driven_channel .png?raw=true" style="width: 40%; max-width: 400px; height: auto;">
 </div>
-Fig. 2: Proposed end-to-end learning communication system, where $\bold{s}$ is the input bit sequence, $\bold{u}$ is the emitted signal, $\bold{y}$ is the received signal passes through the real molecular channel, $\bold{\hat{y}}$ is the received signal passes through the estimated molecular channel and $\bold{\hat{s}}$ is the estimated bit sequence: (a) Channel identification (step 1), (b) offline training of the Tx and Rx on the identified channel model (step 2), (c) online fine-tuning of the Rx (step 3).
+Fig. 2: Proposed end-to-end learning communication system, where $\boldsymbol{s}$ is the input bit sequence, $\boldsymbol{u}$ is the emitted signal, $\boldsymbol{y}$ is the received signal passes through the real molecular channel, $\boldsymbol{\hat{y}}$ is the received signal passes through the estimated molecular channel and $\boldsymbol{\hat{s}}$ is the estimated bit sequence: (a) Channel identification (step 1), (b) offline training of the Tx and Rx on the identified channel model (step 2), (c) online fine-tuning of the Rx (step 3).
 </p>
 
 Real measurements from salinity-based communication in a microfluidic channel testbed proposed in [2] are used to estimate molecular channel parameters. The resulting model generates real-world channel realizations for the channel identification step and is employed to train a Recurrent Neural Network (RNN) during the training.
