@@ -17,7 +17,6 @@ Training an AEC for end-to-end communication requires a known differentiable cha
 The AEC is trained using a data-driven molecular channel representation, following the approach proposed in [1]. The proposed training procedure is achieved in three steps: i) modeling the MC channel through a RNN, ii) training the emitter and receiver components of the AEC, and iii) fine-tuning training of the complete model. Fig. 2 illustrates the training procedure steps. A data-driven ML method is used in the first step to obtain a differentiable molecular channel representation. A specific type of linear regression, a so-called Auto-Regressive Exogenous (ARX) method is utilized as a promising alternative to the channel representation using NNs. This method models the channel function as an Infinite Impulse Response (IIR) filter implemented by a trainable RNN which is differentiable. In the second step, both the encoder and decoder parts of the AEC are jointly trained using backpropagation, while the RNN which represents the channel is fixed. Lastly, the AEC undergoes fine-tuning to address mismatches between the approximation of the channel model and the real model. The decoder parameters are adjusted using transmissions over the real channel model, while the encoder parameters remain unchanged.
 
 <figure>
-    <p align="center">
 <div align="center">
     <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/AEC_data_driven_channel.png?raw=true" style="width: 80%; max-width: 600px; height: auto;">
 </div>
