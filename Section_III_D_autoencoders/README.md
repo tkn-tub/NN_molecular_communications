@@ -14,7 +14,7 @@ Fig. 1: AEC architecture for end-to-end learning of a molecular communication ch
 </p>
 
 Training an AEC for end-to-end communication requires a known differentiable channel model. We tackle this challenge by representing the real-world molecular channel with a data-driven differentiable model.
-The AEC is trained using a data-driven molecular channel representation, following the approach proposed in [^1]. The proposed training procedure is achieved in three steps: i) modeling the MC channel through a RNN, ii) training the emitter and receiver components of the AEC, and iii) fine-tuning training of the complete model. Fig. 2 illustrates the training procedure steps. A data-driven ML method is used in the first step to obtain a differentiable molecular channel representation. A specific type of linear regression, a so-called Auto-Regressive Exogenous (ARX) method is utilized as a promising alternative to the channel representation using NNs. This method models the channel function as an Infinite Impulse Response (IIR) filter implemented by a trainable RNN which is differentiable. In the second step, both the encoder and decoder parts of the AEC are jointly trained using backpropagation, while the RNN which represents the channel is fixed. Lastly, the AEC undergoes fine-tuning to address mismatches between the approximation of the channel model and the real model. The decoder parameters are adjusted using transmissions over the real channel model, while the encoder parameters remain unchanged.
+The AEC is trained using a data-driven molecular channel representation, following the approach proposed in [1]. The proposed training procedure is achieved in three steps: i) modeling the MC channel through a RNN, ii) training the emitter and receiver components of the AEC, and iii) fine-tuning training of the complete model. Fig. 2 illustrates the training procedure steps. A data-driven ML method is used in the first step to obtain a differentiable molecular channel representation. A specific type of linear regression, a so-called Auto-Regressive Exogenous (ARX) method is utilized as a promising alternative to the channel representation using NNs. This method models the channel function as an Infinite Impulse Response (IIR) filter implemented by a trainable RNN which is differentiable. In the second step, both the encoder and decoder parts of the AEC are jointly trained using backpropagation, while the RNN which represents the channel is fixed. Lastly, the AEC undergoes fine-tuning to address mismatches between the approximation of the channel model and the real model. The decoder parameters are adjusted using transmissions over the real channel model, while the encoder parameters remain unchanged.
 
 <figure>
     <p align="center">
@@ -26,7 +26,7 @@ The AEC is trained using a data-driven molecular channel representation, followi
 Fig. 2: Proposed end-to-end learning communication system: (a) Channel identification (step 1), (b) offline training of the Tx and Rx on the identified channel model (step 2), (c) online fine-tuning of the Rx (step 3).
 </p>
 
-Real measurements from salinity-based communication in a microfluidic channel testbed proposed in [^2] are used to estimate molecular channel parameters. The resulting model generates real-world channel realizations for the channel identification step and is employed to train a Recurrent Neural Network (RNN) during the training.
+Real measurements from salinity-based communication in a microfluidic channel testbed proposed in [2] are used to estimate molecular channel parameters. The resulting model generates real-world channel realizations for the channel identification step and is employed to train a Recurrent Neural Network (RNN) during the training.
 
 
 ## Installation
@@ -34,7 +34,7 @@ This code is tested in Python 3.11.11, and Pytorch is used as an open-source dee
 
 ## Usage
 
-This project runs directly from the file AEC_IIRChannelIdentification.ipynb. In the 'Configuration' section, all the necessary libraries are imported. In the 'Transmission parameters' section, parameters such as symbol duration, oversampling ratio, transmission power, and length are adjusted. Note that the current design supports only binary transmission. In the following sections, an ARX channel model is first trained based on the real channel model and then employed for training the AEC. The performance of the trained model is ultimately evaluated according to the calculated Bit Error Rate (BER) in the 'Calculate BER' section. It is worth mentioning that the AEC can be trained at a specific SNR value (for example, 40 dB) and then tested over the entire range of desired SNR values.
+This project runs directly from the file  `AEC_IIRChannelIdentification.ipynb`. In the 'Configuration' section, all the necessary libraries are imported. In the 'Transmission parameters' section, parameters such as symbol duration, oversampling ratio, transmission power, and length are adjusted. Note that the current design supports only binary transmission. In the following sections, an ARX channel model is first trained based on the real channel model and then employed for training the AEC. The performance of the trained model is ultimately evaluated according to the calculated Bit Error Rate (BER) in the 'Calculate BER' section. It is worth mentioning that the AEC can be trained at a specific SNR value (for example, 40 dB) and then tested over the entire range of desired SNR values.
 
 ## Features
 
@@ -49,8 +49,8 @@ Interested contributors can contact the project owner. Please refer to the Conta
 This work has been in part supported by the ”University SAL Labs” initiative of Silicon Austria Labs (SAL) and its Austrian partner universities for applied fundamental research for electronic-based system.
 
 ## References
-[^1]: Khanzadeh, Roya, et al. "End-to-End Learning of Communication Systems with Novel Data-Efficient IIR Channel Identification." 2023 57th Asilomar Conference on Signals, Systems, and Computers. IEEE, 2023.
-[^2]: Angerbauer, Stefan, et al. "Salinity-based molecular communication in microfluidic channels." IEEE Transactions on Molecular, Biological, and Multi-Scale Communications 9.2 (2023): 191-206.
+<a name="fn1">[1]</a>: Khanzadeh, Roya, et al. "End-to-End Learning of Communication Systems with Novel Data-Efficient IIR Channel Identification." 2023 57th Asilomar Conference on Signals, Systems, and Computers. IEEE, 2023.
+<a name="fn1">[2]</a>: Angerbauer, Stefan, et al. "Salinity-based molecular communication in microfluidic channels." IEEE Transactions on Molecular, Biological, and Multi-Scale Communications 9.2 (2023): 191-206.
 
 ## Contact Information
 
