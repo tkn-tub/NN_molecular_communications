@@ -2,7 +2,7 @@
 This project develops an Autoencoder (AEC) for end-to-end learning of molecular communication with data data-driven channel identification.
 
 ## Description
-An AEC consists of two NNs, known as the encoder and decoder, which are trained together in an unsupervised fashion. The encoder and decoder replace respectively the transmitter and the receiver parts of the communication, and the entire communication pathway is optimized simultaneously in an end-to-end manner. Fig. 1 illustrates the AEC architecture for end-to-end learning of a molecular communication channel.
+An AEC consists of two Neural Networks (NN), known as the encoder and decoder, which are trained together in an unsupervised fashion. The encoder and decoder replace respectively the transmitter and the receiver parts of the communication, and the entire communication pathway is optimized simultaneously in an end-to-end manner. Fig. 1 illustrates the AEC architecture for end-to-end learning of a molecular communication channel.
 
 <figure>
     <p align="center">
