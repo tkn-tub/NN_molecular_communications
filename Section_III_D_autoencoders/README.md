@@ -50,7 +50,7 @@ This work has been in part supported by the ”University SAL Labs” initiative
 
 ## References
 <a name="fn1">[1]</a>: Khanzadeh, Roya, et al. "End-to-End Learning of Communication Systems with Novel Data-Efficient IIR Channel Identification." 2023 57th Asilomar Conference on Signals, Systems, and Computers. IEEE, 2023.
-<a name="fn1">[2]</a>: Angerbauer, Stefan, et al. "Salinity-based molecular communication in microfluidic channels." IEEE Transactions on Molecular, Biological, and Multi-Scale Communications 9.2 (2023): 191-206.
+<a name="fn2">[2]</a>: Angerbauer, Stefan, et al. "Salinity-based molecular communication in microfluidic channels." IEEE Transactions on Molecular, Biological, and Multi-Scale Communications 9.2 (2023): 191-206.
 
 ## Contact Information
 
