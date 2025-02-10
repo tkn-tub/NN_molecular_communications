@@ -20,10 +20,6 @@ The AEC is trained using a data-driven molecular channel representation, followi
 <div align="center">
     <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/AEC_data_driven_channel.png?raw=true" style="width: 80%; max-width: 600px; height: auto;">
 </div>
-
-    </p>
-</figure>
-<p align="center">
 Fig. 2: Proposed end-to-end learning communication system: (a) Channel identification (step 1), (b) offline training of the Tx and Rx on the identified channel model (step 2), (c) online fine-tuning of the Rx (step 3).
 </p>
 
