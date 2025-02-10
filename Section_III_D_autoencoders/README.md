@@ -18,7 +18,7 @@ The AEC is trained using a data-driven molecular channel representation, followi
 
 <figure>
     <p align="center">
-<img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/AEC_data_driven_channel.png?raw=true" width="400">
+<img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/AEC_data_driven_channel.png?raw=true" width="200">
     </p>
 </figure>
 <p align="center">
@@ -45,7 +45,7 @@ Interested contributors can contact the project owner. Please refer to the Conta
 ![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
 
 ## Acknowledgements
-
+This work has been in part supported by the ”University SAL Labs” initiative of Silicon Austria Labs (SAL) and its Austrian partner universities for applied fundamental research for electronic-based system.
 
 ## References
 [^1]: Khanzadeh, Roya, et al. "End-to-End Learning of Communication Systems with Novel Data-Efficient IIR Channel Identification." 2023 57th Asilomar Conference on Signals, Systems, and Computers. IEEE, 2023.
