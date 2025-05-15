@@ -28,7 +28,7 @@ This code is tested in MATLAB 2023b, and the required toolboxes are listed in th
 
 ## Usage
 
-This project directly runs from the file `A_Master_File.mlx`, where the NN model is trained and deployed. This file calls to the other two project files `Parameters.mlx` and optionally to `Dataset_compiler.mlx`. By default, the code loads the stored file `Dataset_cell2cell.mat`, accesible on the [IEEE DataPort portal at this link](https://ieee-dataport.org/documents/dataset-cell-cell-communications) after loggin or in the [Ocean Code portal at this link](https://codeocean.com/capsule/6777864/tree/v1) (withouth any loggin requirements).
+This project directly runs from the file `A_Master_File.mlx`, where the NN model is trained and deployed. This file calls to the other two project files `Parameters.mlx` and optionally to `Dataset_compiler.mlx`. By default, the code loads the stored file `Dataset_cell2cell.mat`, accesible on the [IEEE DataPort portal at this link](https://ieee-dataport.org/documents/dataset-cell-cell-communications) after loggin or in the [Ocean Code portal (dataset folder) at this link](https://codeocean.com/capsule/6777864/tree/v1) (withouth any loggin requirements).
 
 ## Features
 - **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx`, originally provided by Mohammad Zoofaghari, follows the mathematical developments in [1].
