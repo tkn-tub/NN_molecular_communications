@@ -22,18 +22,21 @@ Fig. 1: Illustration of the microfluidic circuit to realize a neuron.
 
 The implemented microfluidic in COMSOL is illustrated in Fig. 2.
 The microfluidic consists of single pipe with a turn for a larger variability of the channel.
-The straight and turning paths account for the linear component in Eq. (1) and is developed within three first compartments.
+The straight and turning paths account for the linear component in Eq. (1) and is developed within the first three compartments.
+The chemical reaction is developed in the last compartment of the pipe.
 
 
 <figure>
     <p align="center">
-        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/c_CH3COOH.gif?raw=true" alt="nn" width="400">
+        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic_animation.gif?raw=true" alt="nn" width="300">
     </p>
 </figure>
 <p align="center">
-Fig. 1: Illustration of the microfluidic circuit to realize a neuron.
+Fig. 2: Animation of the variability of the concentration.
 </p>
 
+The pipe comprises two inlets, one within the first compartment and a second one on the top wall of the last compartment.
+The chemicals flow in water within the pipe, the water fluid is forced to keep a velocity at the inlet. 
 
 ## Installation
 This code is tested in MATLAB 2023b, and the required toolboxes are listed in the table below.
