@@ -9,7 +9,7 @@ As illustrated in Fig. 1, the linear component of the neuron as
  ![sum](https://latex.codecogs.com/svg.image?\sum_{i=1}^{N}%20\omega_i%20x_i)
 
  lies on the mobility component of the microfluidic circuit, while the nonlinear component is realized with a chemical reaction.
-  
+
 
 <figure>
     <p align="center">
@@ -20,9 +20,9 @@ As illustrated in Fig. 1, the linear component of the neuron as
 Fig. 1: Illustration of the microfluidic circuit to realize a neuron.
 </p>
 
-The dataset is created with the code provided by the authors in [1] comprising the number of released vesicles at the Immune cell with time, as illustrated in Fig. 1a. This number of vesicles depends on the distance to the tumor cell, which is the parameter to estimate The dataset is processed to evaluate the slope, see the subfigure in Fig. 1a, from the slope the peak amplitude and location are taken as the two features to train and deploy the neural network.
-
-The NN is a low-complexity feedforward architecture implemented in MATLAB and comprises a single layer and two nodes. The output of the NN is the predicted distance, as illustrated in Fig. 1c, the model devise a quite accurate estimator.
+The implemented microfluidic in COMSOL is illustrated in Fig. 2.
+The microfluidic consists of single pipe with a turn for including a larger variability.
+All the sizes of the 
 
 ## Installation
 This code is tested in MATLAB 2023b, and the required toolboxes are listed in the table below.
