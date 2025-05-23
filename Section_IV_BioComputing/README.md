@@ -6,7 +6,7 @@ This project is a work in progress to explore the computational capabilites with
 We aim to implement the linear and non-linear components of a neuron by connecting various microfluidic pipes.
 As illustrated in Fig. 1, the linear component of the neuron as
 
- ![sum](https://latex.codecogs.com/svg.image?\sum_{i=1}^{N}%20\omega_i%20x_i)
+ ![sum](https://latex.codecogs.com/svg.image?\sum_{i=1}^{N}%20\omega_i%20x_i)     
 
  lies on the mobility component of the microfluidic circuit, while the nonlinear component is realized with a chemical reaction.
 
@@ -21,8 +21,19 @@ Fig. 1: Illustration of the microfluidic circuit to realize a neuron.
 </p>
 
 The implemented microfluidic in COMSOL is illustrated in Fig. 2.
-The microfluidic consists of single pipe with a turn for including a larger variability.
-All the sizes of the 
+The microfluidic consists of single pipe with a turn for a larger variability of the channel.
+The straight and turning paths account for the linear component in Eq. (1) and is developed within three first compartments.
+
+
+<figure>
+    <p align="center">
+        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/c_CH3COOH.gif?raw=true" alt="nn" width="400">
+    </p>
+</figure>
+<p align="center">
+Fig. 1: Illustration of the microfluidic circuit to realize a neuron.
+</p>
+
 
 ## Installation
 This code is tested in MATLAB 2023b, and the required toolboxes are listed in the table below.
