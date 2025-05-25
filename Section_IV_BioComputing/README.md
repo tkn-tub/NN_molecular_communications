@@ -175,7 +175,15 @@ This chemical is constant with time, which is defined with concentration level `
 - Outflow: It is defind at the oulet of the chemical chamber.
 - Study Concentration: This study is defined as time-dependent.
 It evaluates the concentration level with time of the four chemicals within the pipe (CH3COOH, NaOH, CH3COONa, and H2O).
-The study solves for the physics Chemistry, Laminar Flow, and Transport of Diluted Species, as well as for the multiphysics `Reacting Flow, Diluted Species`. 
+The study solves for the physics Chemistry, Laminar Flow, and Transport of Diluted Species, as well as for the multiphysics `Reacting Flow, Diluted Species`.
+This study also calculates the concentration along a variety of inlets and outlets.
+The calculations are defined in `Results/Derived Values`
+
+        a) Surface plot for the concentration value of the four components CH3COOH, NaOH, CH3COONa, and H2O.
+    
+        b) Average concentration value for CH3COOH at the input of the chemical chamber.
+
+        c) 
 
 ## Features
 - **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx`, originally provided by Mohammad Zoofaghari, follows the mathematical developments in [1].
