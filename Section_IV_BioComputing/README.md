@@ -47,9 +47,13 @@ This allows to model pulse-based transmissions within the microfluidic channel.
 
 ## Installation
 This simulation is developed in COMSOL Multiphysics 6.3.
-The phisics included within this simulation are the following:
+The physics included within this simulation are the following:
 
-- Chemical Species of Transport: Reaction Engineering, Chemical Reaction, and Transport of Diluted Species.
+- Chemical Species of Transport using the modules
+    
+        Reaction Engineering,
+        Chemical Reaction, and
+        Transport of Diluted Species.
 - Fluid Flow: Single-Phase Flow.
 
 ## Usage
