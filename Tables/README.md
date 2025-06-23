@@ -1,5 +1,5 @@
 This file plots the contributions per year and per topic in NNs. The origin file is References.xlsx, where references are organized per tab. To derive the plot within the Matlab file 'NN_per_app.mlx', we follow these steps
 
 1—References from the file 'References.xlsx' should be (manually) placed in the file 'NN_per_application.xlsx'. This file prints the references in a single Tab and refers to the applications in the first column. For the application categories, we have the following: Upper Layer, PHY Layer, MAC Layer, Explainability, Bio-Implementation, and Database generation.
-2- Run the Phyton script table_analysis.spy: This code outputs the file 'count_per_application_and_year.xlsx' which accounts for the number of references per year per topic.
+2- Run the Phyton script table_analysis.spy: This code generates the file 'count_per_application_and_year.xlsx', which tracks the number of references per year per topic.
 3- Run the Matlab file 'NN_per_app.mlx' to plot the bar figure.
