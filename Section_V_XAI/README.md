@@ -28,7 +28,7 @@ Interested contributors can contact the project owner. Please refer to the Conta
 ![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
 
 ## Acknowledgements
-
+This work has been funded by the German Federal Ministry of Education and Research (BMBF, Germany) as part of the 6G Research and Innovation Cluster 6G-RIC under Grant 16KISK020K, the project IoBNT under Grant 16KIS1986K.
 
 ## References
 [^1]: Osman Tugay Basaran, Jorge Torres Gómez, Falko Dressler. XAI-Enhanced Bilateral Molecular Communication: Revealing Cancer Microenvironment Dynamics via Extracellular Tumor Vesicles. TechRxiv. December 09, 2024. [![Link]([https://img.shields.io/github/license/larymak/Python-project-Scripts](https://www.techrxiv.org/users/864244/articles/1245814-xai-enhanced-bilateral-molecular-communication-revealing-cancer-microenvironment-dynamics-via-extracellular-tumor-vesicles))]
