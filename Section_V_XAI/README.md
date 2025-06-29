@@ -1,17 +1,24 @@
 # Explainable AI for Molecular Communications
-This project develops ...
+This project develops XAI-enhanced neural network models to interpret distance estimation in tumor microenvironment molecular communication systems.
 
 ## Description
-This project develops ... [^1]
+This MATLAB implementation provides explainable AI (XAI) methods for interpreting our neural network-based distance estimator between immune cells and cancer cells using extracellular vesicle (EV) exchange patterns. The code implements:
+- Manual Permutation Importance analysis
+- Shapley Value approximation (SHAP-inspired)
+- Comparative evaluation against LIME and ICE methods
 
-
+Key finding: Peak time coordinate (Feature 2) dominates distance predictions (mean SHAP: 1.5e-6) while peak amplitude (Feature 1) shows negligible impact [^1].
 
 ## Installation
-This code is tested in 
+Tested with MATLAB R2024a with:
+- Statistics and Machine Learning Toolbox
+- Deep Learning Toolbox
+- Parallel Computing Toolbox (optional)
+
 
 ## Usage
 
-This project directly runs from the file ...
+This project directly runs from the recentlimeandice.mlx & recentpermutandshap.mlx files.
 
 ## Features
 
