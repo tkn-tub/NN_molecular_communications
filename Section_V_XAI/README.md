@@ -22,7 +22,7 @@ This project directly runs from the recentlimeandice.mlx & recentpermutandshap.m
 
 
 ## Contributing
-Interested contributors can contact the project owner. Please refer to the Contact Information below. We identify further developments to ...
+Interested contributors can contact the project owner. Please refer to the Contact Information below.
 
 ## License
 ![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
@@ -31,7 +31,7 @@ Interested contributors can contact the project owner. Please refer to the Conta
 
 
 ## References
-[^1]: Osman Tugay Basaran, Jorge Torres Gómez, Falko Dressler. XAI-Enhanced Bilateral Molecular Communication: Revealing Cancer Microenvironment Dynamics via Extracellular Tumor Vesicles. TechRxiv. December 09, 2024. ![Link]([https://img.shields.io/github/license/larymak/Python-project-Scripts](https://www.techrxiv.org/users/864244/articles/1245814-xai-enhanced-bilateral-molecular-communication-revealing-cancer-microenvironment-dynamics-via-extracellular-tumor-vesicles))
+[^1]: Osman Tugay Basaran, Jorge Torres Gómez, Falko Dressler. XAI-Enhanced Bilateral Molecular Communication: Revealing Cancer Microenvironment Dynamics via Extracellular Tumor Vesicles. TechRxiv. December 09, 2024. [![Link]([https://img.shields.io/github/license/larymak/Python-project-Scripts](https://www.techrxiv.org/users/864244/articles/1245814-xai-enhanced-bilateral-molecular-communication-revealing-cancer-microenvironment-dynamics-via-extracellular-tumor-vesicles))]
 
 ## Contact Information
 
