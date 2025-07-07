@@ -50,8 +50,9 @@ We want to acknowledge the support provided by funding agencies
 - University SAL Labs.
 
 ## References
-Code developed in this repository followed the work in
-<a name="fn1">[1]</a>: M. Zoofaghari, F. Pappalardo, M. Damrath, and I. Balasingham, “Communicating Smartly in Molecular Communication Environments: Neural Networks in the Internet of Bio-Nano Things,” arXiv, Jun. 2025. [Link](linktoarxiv)
+Code developed in this repository followed the research work in: 
+
+Jorge Torres Gómez, Pit Hofmann, Lisa Y. Debus, Osman Tugay Basaran, Sebastian Lotter, Roya Khanzadeh, Stefan Angerbauer, Bige Deniz Unluturk, Sergi Abadal, Werner Haselmayr, Frank H. P. Fitzek, Robert Schober and Falko Dressler, “Communicating Smartly in Molecular Communication Environments: Neural Networks in the Internet of Bio-Nano Things,” arXiv, Jun. 2025. [Link](https://arxiv.org/abs/2506.20589)
 
 ## Contact Information
 
