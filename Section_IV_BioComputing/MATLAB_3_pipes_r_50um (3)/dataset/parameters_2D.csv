@@ -1,0 +1,55 @@
+time_simul,200[ms],Simulation duration
+time_delta,1[ms],Simulation time step
+width_cylinder_in_1,1.4[mm],Length of the cilinder input 1
+radius_cylinder_1,20[um],Radius of the cilinder 1
+width_cylinder_out_1,1.4[mm],Length of the cilinder output 1
+angle_turn_1_rad,pi/3,angle of the turn
+r_in_1,6[um],Radius of the circle that defines the turning geometry. See a representation in Fig 3 in ref bicen2013system
+r_out_1,2*radius_cylinder_1+r_in_1,See Eq. (41) in ref bicen2013system
+L_inner,width_cylinder_in_1+angle_turn_1_rad*r_in_1+width_cylinder_out_1,length of the inner perimeter for the pipe with turn
+L_outer,width_cylinder_in_1+angle_turn_1_rad*r_out_1+width_cylinder_out_1,length of the outer perimeter for the pipe with turn
+x0_in_1,(width_cylinder_in_1+r_in_1*sin(angle_turn_1_rad)),"ending x-coordinate point of the internal arc, i.e., Circular_Arc_in"
+y0_in_1,-(r_in_1*(1-cos(angle_turn_1_rad))),"ending y-coordinate point of the internal arc, i.e., Circular_Arc_in"
+x0_out_1,width_cylinder_in_1+r_out_1*sin(angle_turn_1_rad),initial x-coordinate for the wall top of pipe out
+y0_out_1,2*radius_cylinder_1-(r_out_1*(1-cos(angle_turn_1_rad))),initial y-coordinate for the wall top of pipe out
+p0,6[mmHg],Pressure level at the inlet
+v0,0.060545[m/s],Mean velocity at the inlet
+volume_in_1,width_cylinder_in_1*pi*radius_cylinder_1^2,
+volume_out_1,width_cylinder_out_1*pi*radius_cylinder_1^2,
+volume_turn,pi*radius_cylinder_1^2*pi*(r_in_1+r_out_1)/2,
+volume_total,volume_in_1+volume_turn+volume_out_1,
+c_Na,10[mol/m^3],concentration of species.
+D_Na,1.33e-9[m^2/s],Diffusion coeff of Na in H2O.
+d_Na,358[pm],Diameter of Sodium
+pulse_duration,1[ms],Pulse duration of the concentration at the Inlet 1.
+pulse_transition,0[ms],Pulse transition of the concentration at the Inlet 1.
+M_Na,22.99[g/mol],Molar mass of Sodium
+rho_Na,M_Na*c_Na,Density of Sodium
+N_Na,100,Number of released Sodium ions
+width_cylinder_chem_chamber_1,20[um],Length of the cylinder where the chemical reaction takes place.
+width_inlet_chem_chamber_1,2[um],Length of the inlet in the chemical reaction 1
+v0_chem_inlet,v0*2,Mean velocity at the inlet of the chemical chamber
+x_out_1,x0_in_1+(width_cylinder_out_1)*cos(-angle_turn_1_rad)-(y0_in_1-y0_in_1)*sin(-angle_turn_1_rad),ending x-coordinate for the wall bottom of pipe out
+y_out_1,y0_in_1+(width_cylinder_out_1)*sin(-angle_turn_1_rad)-(y0_out_1-y0_out_1)*cos(-angle_turn_1_rad),ending y-coordinate for the wall bottom of pipe out
+x_out_wall_top_out_1,x0_out_1+(width_cylinder_out_1)*cos(-angle_turn_1_rad)-(y0_out_1-y0_out_1)*sin(-angle_turn_1_rad),ending x-coordinate for the wall top of pipe out
+y_out_wall_top_out_1,y0_out_1+(width_cylinder_out_1)*sin(-angle_turn_1_rad)-(y0_out_1-y0_out_1)*cos(-angle_turn_1_rad),ending y-coordinate for the wall top of pipe out
+x_out_wall_bottom_chem_chamber_1,x_out_1+(width_cylinder_chem_chamber_1)*cos(-angle_turn_1_rad)-(y0_in_1-y0_in_1)*sin(-angle_turn_1_rad),ending x-coordinate for the wall bottom of the chemical reaction chamber
+y_out_wall_bottom_chem_chamber_1,y_out_1+(width_cylinder_chem_chamber_1)*sin(-angle_turn_1_rad)-(y_out_1-y_out_1)*cos(-angle_turn_1_rad),ending y-coordinate for the wall bottom of the chemical reaction chamber
+x_out_wall_top_chem_chamber_1,x_out_wall_top_out_1+(width_cylinder_chem_chamber_1)*cos(-angle_turn_1_rad)-(y_out_wall_top_out_1-y_out_wall_top_out_1)*sin(-angle_turn_1_rad),ending x-coordinate for the wall top of the chemical reaction chamber
+y_out_wall_top_chem_chamber_1,y_out_wall_top_out_1+(width_cylinder_chem_chamber_1)*sin(-angle_turn_1_rad)-(y_out_wall_top_out_1-y_out_wall_top_out_1)*cos(-angle_turn_1_rad),ending y-coordinate for the wall top of the chemical reaction chamber
+x1_inlet_chem_chamber,x_out_wall_top_out_1,initial x-coordinate for the inlet chemical chamber
+x2_inlet_chem_chamber,"x_out_wall_top_out_1+(width_inlet_chem_chamber_1
+)*cos(-angle_turn_1_rad)-(y_out_wall_top_out_1-y_out_wall_top_out_1)*sin(-angle_turn_1_rad)",ending x-coordinate for the inlet of the chemical reaction chamber
+y1_inlet_chem_chamber,y_out_wall_top_out_1,initial y-coordinate for the inlet of the chemical reaction chamber
+y1_outlet_chem_chamber,"y_out_wall_top_out_1+(width_inlet_chem_chamber_1
+)*sin(-angle_turn_1_rad)-(y_out_wall_top_out_1-y_out_wall_top_out_1)*cos(-angle_turn_1_rad)",ending y-coordinate for the inlet of the chemical reaction chamber
+c_CH3COOH_ini,1[mol/L],Initial concentration at the inlet of the pipe.
+D_CH3COOH,1.22*10^(-5)[cm^2/s],Diffusion coeff of Acetic Acid in water.
+c_NaOH_ini,1[mol/L],Initial concentration at the inlet of the chemical chamber.
+D_NaOH,5.3*10^(-9)[m^2/s],Diffusion coeff of Sodium Hydroxide in water
+c_CH3COONa_ini,0,Initial concentration of the reaction product.
+D_CH3COONa,1.09*10^(-5)[cm^2/s],Diffusion coeff of Sodium Acid in water.
+c_H2O_ini,0,Initial concentration of water. It is zero as it is a produce of the reaction.
+D_H2O,2.29*10^(-9)[cm^2/s],Diffusion coeff of water in water.
+A,27038[m^3/mol/s],Forward frequency factor accounting for the Arrhenius expression.
+Q,5[ul/min],
