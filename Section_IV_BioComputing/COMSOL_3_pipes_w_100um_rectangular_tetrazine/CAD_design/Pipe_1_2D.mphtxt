@@ -1,0 +1,86 @@
+# Created by COMSOL Multiphysics.
+
+# Major & minor version
+0 1 
+1 # number of tags
+# Tags
+5 geom1 
+1 # number of types
+# Types
+3 obj 
+
+# --------- Object 0 ----------
+
+0 0 1 
+5 Geom2 # class
+5 # version
+2 # type
+1 # voidsLabeled
+1e-10 # gtol
+0.0001 # resTol
+2 # edgeParamVersion
+
+4 # number of vertices
+# Vertices
+# X Y dom tol
+0 0 -1 NAN 
+0 0.11272600000000001 -1 NAN 
+21 0 -1 NAN 
+21 0.11272600000000001 -1 NAN 
+
+4 # number of edges
+# Edges
+# vtx1 vtx2 s1 s2 up down curve tol
+1 2 0 1 0 1 1 NAN 
+3 1 0 1 0 1 2 NAN 
+2 4 0 1 0 1 3 NAN 
+4 3 0 1 0 1 4 NAN 
+
+4 # number of curves
+# Curves
+
+# Curve 1
+11 BezierCurve # class
+1 # version
+2 # sdim
+0 # rational?
+1 # degree
+# control points
+0 0 
+0 0.11272600000000001 
+
+# Curve 2
+11 BezierCurve # class
+1 # version
+2 # sdim
+0 # rational?
+1 # degree
+# control points
+21 0 
+0 0 
+
+# Curve 3
+11 BezierCurve # class
+1 # version
+2 # sdim
+0 # rational?
+1 # degree
+# control points
+0 0.11272600000000001 
+21 0.11272600000000001 
+
+# Curve 4
+11 BezierCurve # class
+1 # version
+2 # sdim
+0 # rational?
+1 # degree
+# control points
+21 0.11272600000000001 
+21 0 
+
+# Attributes
+0 # nof attributes
+
+# Object attributes
+0 # Number of object attributes
