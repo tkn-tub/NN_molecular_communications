@@ -10,7 +10,6 @@ d_Na,358[pm],Diameter of Sodium
 D_Na,1.33e-9[m^2/s],Diffusion coeff of Na in H2O.
 D_NaOH,5.3*10^(-9)[m^2/s],Diffusion coeff of Sodium Hydroxide in water
 D_Tartrazine,4.9*10^(-10)[m^2/s],
-height_pipe,50[um],height of pipes
 M_Na,22.99[g/mol],Molar mass of Sodium
 N_Na,100,Number of released Sodium ions
 p0,600[Pa],Pressure level at the inlet
@@ -23,32 +22,33 @@ radius_cylinder_1,20[um],Radius of the cilinder 1
 rho_Na,M_Na*c_Na,Density of Sodium
 time_delta,100[ms],Simulation time step
 time_simul,20[s],Simulation duration
-L_1,16.7609[mm],Length of Pipe 1
+height_pipe,38[um],height of pipes
+L_1,16.5748[mm],Length of Pipe 1
 w_1,0.167668[mm],Width of Pipe 1
-P_b23_x,0.016615[m],x-Coordinates for P_b23
-P_b23_y,0.000182829[m],y-Coordinates for P_b23
-P_b33_x,0.0167062[m],x-Coordinates for P_b33
-P_b33_y,-8.3834e-05[m],y-Coordinates for P_b33
-P_u222_x,0.0167539[m],x-Coordinates for P_u222
-P_u222_y,0.000319506[m],y-Coordinates for P_u222
-P_u322_x,0.0168427[m],x-Coordinates for P_u322
-P_u322_y,-0.000180668[m],y-Coordinates for P_u322
-P_u210_x,0.000426924[m],x-Coordinates for P_u210
-P_u210_y,0.000319506[m],y-Coordinates for P_u210
-P_b21_x,0.000565861[m],x-Coordinates for P_b21
+P_b23_x,0.0165966[m],x-Coordinates for P_b23
+P_b23_y,9.8995e-05[m],y-Coordinates for P_b23
+P_b33_x,0.0163517[m],x-Coordinates for P_b33
+P_b33_y,-0.000167668[m],y-Coordinates for P_b33
+P_u222_x,0.0167337[m],x-Coordinates for P_u222
+P_u222_y,0.000235278[m],y-Coordinates for P_u222
+P_u322_x,0.0164874[m],x-Coordinates for P_u322
+P_u322_y,-0.000263125[m],y-Coordinates for P_u322
+P_u210_x,0.000426965[m],x-Coordinates for P_u210
+P_u210_y,0.000319516[m],y-Coordinates for P_u210
+P_b21_x,0.000565892[m],x-Coordinates for P_b21
 P_b21_y,0.000182829[m],y-Coordinates for P_b21
-P_b31_x,0.000474667[m],x-Coordinates for P_b31
+P_b31_x,0.000475411[m],x-Coordinates for P_b31
 P_b31_y,-8.3834e-05[m],y-Coordinates for P_b31
-P_u310_x,0.000338157[m],x-Coordinates for P_u310
-P_u310_y,-0.000180668[m],y-Coordinates for P_u310
-P_u31_x,0.00859043[m],x-Coordinates for P_u31
-P_u31_y,-0.0118142[m],y-Coordinates for P_u31
-L_2,0.0239002[m],Length of Pipe 2
+P_u310_x,0.000339166[m],x-Coordinates for P_u310
+P_u310_y,-0.00018104[m],y-Coordinates for P_u310
+P_u31_x,0.0084974[m],x-Coordinates for P_u31
+P_u31_y,-0.0116157[m],y-Coordinates for P_u31
+L_2,0.0236332[m],Length of Pipe 2
 w_2,0.000194895[m],width of Pipe 2
-varphi_2,1.5872[rad],Angle of Pipe 2
-L_3,0.0289694[m],Length of Pipe 3
+varphi_2,1.58705[rad],Angle of Pipe 2
+L_3,0.0285381[m],Length of Pipe 3
 w_3,0.000167367[m],width of Pipe 3
-varphi_3,1.90764[rad],Angle of Pipe 3
-n_Pipe_3_inlet_x,-0.578571,x-Coordinates for n_Pipe_3_inlet
-n_Pipe_3_inlet_y,0.815632,y-Coordinates for n_Pipe_3_inlet
+varphi_3,1.90218[rad],Angle of Pipe 3
+n_Pipe_3_inlet_x,-0.580795,x-Coordinates for n_Pipe_3_inlet
+n_Pipe_3_inlet_y,0.81405,y-Coordinates for n_Pipe_3_inlet
 n_Pipe_3_inlet_z,0,y-Coordinates for n_Pipe_3_inlet
