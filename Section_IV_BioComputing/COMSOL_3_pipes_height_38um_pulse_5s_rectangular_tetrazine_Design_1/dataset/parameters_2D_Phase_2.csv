@@ -27,17 +27,17 @@ P_u21_y,0.000155358[m],y-Coordinates for P_b23
 height_pipe,38[um],height of pipes
 L_1,21[mm],Length of Pipe 1
 w_1,0.21198[mm],Width of Pipe 1
-P_b23_x,0.0208668[m],x-Coordinates for P_b23
+P_b23_x,0.02086[m],x-Coordinates for P_b23
 P_b23_y,0.000204985[m],y-Coordinates for P_b23
 P_b33_x,0.0208818[m],x-Coordinates for P_b33
 P_b33_y,-0.00010599[m],y-Coordinates for P_b33
-P_u222_x,0.0209751[m],x-Coordinates for P_u222
-P_u222_y,0.000320062[m],y-Coordinates for P_u222
+P_u222_x,0.0209666[m],x-Coordinates for P_u222
+P_u222_y,0.000321595[m],y-Coordinates for P_u222
 P_u322_x,0.0210415[m],x-Coordinates for P_u322
 P_u322_y,-0.000225406[m],y-Coordinates for P_u322
-P_u210_x,0.000444916[m],x-Coordinates for P_u210
-P_u210_y,0.000320062[m],y-Coordinates for P_u210
-P_b21_x,0.000553209[m],x-Coordinates for P_b21
+P_u210_x,0.000453407[m],x-Coordinates for P_u210
+P_u210_y,0.000321595[m],y-Coordinates for P_u210
+P_b21_x,0.000560049[m],x-Coordinates for P_b21
 P_b21_y,0.000204985[m],y-Coordinates for P_b21
 P_b31_x,0.000538243[m],x-Coordinates for P_b31
 P_b31_y,-0.00010599[m],y-Coordinates for P_b31
@@ -45,9 +45,9 @@ P_u310_x,0.000378468[m],x-Coordinates for P_u310
 P_u310_y,-0.000225406[m],y-Coordinates for P_u310
 P_u31_x,0.01071[m],x-Coordinates for P_u31
 P_u31_y,-0.0140487[m],y-Coordinates for P_u31
-L_2,0.0288364[m],Length of Pipe 2
+L_2,0.0284575[m],Length of Pipe 2
 w_2,0.00015802[m],width of Pipe 2
-varphi_2,1.51007[rad],Angle of Pipe 2
+varphi_2,1.48156[rad],Angle of Pipe 2
 L_3,0.035078[m],Length of Pipe 3
 w_3,0.00019947[m],width of Pipe 3
 varphi_3,1.85792[rad],Angle of Pipe 3
