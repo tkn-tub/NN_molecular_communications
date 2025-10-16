@@ -1,0 +1,11654 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$EXTMIN
+ 10
+-10540
+ 20
+-13516.4
+  9
+$EXTMAX
+ 10
+32578
+ 20
+10512.3
+  9
+$INSUNITS
+ 70
+13
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+ 70
+   3
+  0
+LAYER
+  2
+DEFPOINTS
+ 70
+    0
+ 62
+    9
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+layer_7
+ 70
+    0
+ 62
+    143
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+layer_10
+ 70
+    0
+ 62
+    111
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+TEXT
+100
+AcDbText
+  8
+layer_10
+ 10
+-10540
+ 20
+10512.3
+ 11
+-10540
+ 21
+10512.3
+ 30
+   0
+ 40
+-0.016
+  1
+Generated with the LayoutEditor (This message will NOT be added by any commercial version of the LayoutEditor.)
+ 50
+0
+ 72
+0
+ 73
+3
+  0
+TEXT
+100
+AcDbText
+  8
+DEFPOINTS
+ 10
+-10540
+ 20
+10512.3
+ 11
+-10540
+ 21
+10512.3
+ 30
+   0
+ 40
+-0.016
+  1
+Generated with the LayoutEditor (This message will NOT be added by any commercial version of the LayoutEditor.)
+ 50
+0
+ 72
+0
+ 73
+3
+  0
+POLYLINE
+100
+AcDb2dPolyline
+  8
+layer_10
+ 66
+   1
+ 70
+   1
+ 40
+0.0
+ 41
+0.0
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+14894
+ 20
+10295.313
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+25050.791
+ 20
+737.268
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4737.209
+ 20
+737.268
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+14894
+ 20
+10295.313
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+14894
+ 20
+10512.3
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4722.243
+ 20
+940.17
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4722.243
+ 20
+426.293
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+25065.757
+ 20
+426.293
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+14894
+ 20
+-13183.246
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4722.243
+ 20
+426.293
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4722.243
+ 20
+940.17
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4394
+ 20
+631.278
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4184
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4098.286
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4012.571
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3926.857
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3841.143
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3755.429
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3669.714
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3584
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3498.286
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3412.572
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3326.857
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3241.143
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3155.429
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3069.714
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2984
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2898.286
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2812.572
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2726.857
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2641.143
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2555.429
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2469.714
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2384
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2298.286
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2212.572
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2126.857
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2041.143
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1955.429
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1869.715
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1784
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1698.286
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1612.572
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1526.857
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1441.143
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1355.429
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1269.715
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1184
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1098.286
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1012.572
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+926.857
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+841.143
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+755.429
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+669.715
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+584
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+498.286
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+412.572
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+326.858
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+241.143
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+155.429
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+69.715
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-16
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-101.714
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-187.428
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-273.142
+ 20
+602.993
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-358.857
+ 20
+688.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-572.712
+ 20
+474.853
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-358.857
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-273.142
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-187.428
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-101.714
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-16
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+69.715
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+155.429
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+241.143
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+326.858
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+412.572
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+498.286
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+584
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+669.715
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+755.429
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+841.143
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+926.857
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1012.572
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1098.286
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1184
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1269.715
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1355.429
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1441.143
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1526.857
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1612.572
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1698.286
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1784
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1869.715
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1955.429
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2041.143
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2126.857
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2212.572
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2298.286
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2384
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2469.714
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2555.429
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2641.143
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2726.857
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2812.572
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2898.286
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2984
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3069.714
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3155.429
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3241.143
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3326.857
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3412.572
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3498.286
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3584
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3669.714
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3755.429
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3841.143
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3926.857
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4012.571
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4098.286
+ 20
+260.998
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4184
+ 20
+346.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4355.429
+ 20
+175.283
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4184
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4098.286
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4012.571
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3926.857
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3841.143
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3755.429
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3669.714
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3584
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3498.286
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3412.572
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3326.857
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3241.143
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3155.429
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3069.714
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2984
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2898.286
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2812.572
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2726.857
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2641.143
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2555.429
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2469.714
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2384
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2298.286
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2212.572
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2126.857
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2041.143
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1955.429
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1869.715
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1784
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1698.286
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1612.572
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1526.857
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1441.143
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1355.429
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1269.715
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1184
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1098.286
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1012.572
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+926.857
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+841.143
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+755.429
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+669.715
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+584
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+498.286
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+412.572
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+326.858
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+241.143
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+155.429
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+69.715
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-16
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-101.714
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-187.428
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-273.142
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-358.857
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-444.571
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-530.285
+ 20
+89.569
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-615.999
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1115.999
+ 20
+3.855
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1115.999
+ 20
+7510
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1063.473
+ 20
+7555.954
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1015.152
+ 20
+7606.312
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-971.404
+ 20
+7660.689
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-932.561
+ 20
+7718.672
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-898.92
+ 20
+7779.82
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-870.737
+ 20
+7843.668
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-848.225
+ 20
+7909.728
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-831.557
+ 20
+7977.5
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-820.858
+ 20
+8046.466
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-816.211
+ 20
+8116.102
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-817.651
+ 20
+8185.878
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-825.167
+ 20
+8255.263
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-838.702
+ 20
+8323.73
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-858.152
+ 20
+8390.755
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-861.149
+ 20
+8399.453
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-887.114
+ 20
+8464.234
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-918.625
+ 20
+8526.506
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-955.445
+ 20
+8585.795
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-997.291
+ 20
+8641.649
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1043.846
+ 20
+8693.643
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1094.756
+ 20
+8741.381
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1149.633
+ 20
+8784.501
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1208.059
+ 20
+8822.675
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1269.589
+ 20
+8855.61
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1333.756
+ 20
+8883.058
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1400.071
+ 20
+8904.808
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1468.03
+ 20
+8920.697
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1537.114
+ 20
+8930.601
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1606.799
+ 20
+8934.447
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1615.999
+ 20
+8934.5
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1685.724
+ 20
+8931.456
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1754.918
+ 20
+8922.346
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1823.054
+ 20
+8907.241
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1889.615
+ 20
+8886.254
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1954.094
+ 20
+8859.546
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2015.999
+ 20
+8827.32
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2074.86
+ 20
+8789.821
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2130.229
+ 20
+8747.335
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2181.685
+ 20
+8700.185
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2228.835
+ 20
+8648.73
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2271.321
+ 20
+8593.361
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2308.82
+ 20
+8534.5
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2341.046
+ 20
+8472.594
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2367.753
+ 20
+8408.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2370.85
+ 20
+8399.453
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2391.07
+ 20
+8332.655
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2405.391
+ 20
+8264.349
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2413.704
+ 20
+8195.055
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2415.946
+ 20
+8125.3
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2412.101
+ 20
+8055.615
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2402.196
+ 20
+7986.53
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2386.308
+ 20
+7918.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2364.557
+ 20
+7852.257
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2337.11
+ 20
+7788.09
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2304.174
+ 20
+7726.559
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2266.001
+ 20
+7668.133
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2222.881
+ 20
+7613.256
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2175.142
+ 20
+7562.346
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2123.148
+ 20
+7515.791
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2116
+ 20
+7510
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2115.999
+ 20
+510
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9115.5
+ 20
+510
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9161.454
+ 20
+562.526
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9211.812
+ 20
+610.847
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9266.189
+ 20
+654.595
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9324.172
+ 20
+693.438
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9385.32
+ 20
+727.079
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9449.167
+ 20
+755.263
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9515.228
+ 20
+777.774
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9582.999
+ 20
+794.443
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9651.965
+ 20
+805.142
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9721.601
+ 20
+809.789
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9791.378
+ 20
+808.349
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9860.763
+ 20
+800.833
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9929.229
+ 20
+787.298
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9996.255
+ 20
+767.848
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10004.953
+ 20
+764.851
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10069.734
+ 20
+738.886
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10132.006
+ 20
+707.374
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10191.295
+ 20
+670.555
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10247.149
+ 20
+628.708
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10299.143
+ 20
+582.153
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10346.882
+ 20
+531.243
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10390.002
+ 20
+476.367
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10428.175
+ 20
+417.94
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10461.11
+ 20
+356.41
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10488.558
+ 20
+292.242
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10510.309
+ 20
+225.927
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10526.197
+ 20
+157.969
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10536.101
+ 20
+88.884
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10539.947
+ 20
+19.199
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10540
+ 20
+10
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10536.956
+ 20
+-59.725
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10527.846
+ 20
+-128.919
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10512.74
+ 20
+-197.055
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10491.754
+ 20
+-263.616
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10465.046
+ 20
+-328.095
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10432.82
+ 20
+-390
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10395.321
+ 20
+-448.862
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10352.835
+ 20
+-504.231
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10305.685
+ 20
+-555.686
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10254.229
+ 20
+-602.836
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10198.86
+ 20
+-645.322
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10139.999
+ 20
+-682.821
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10078.093
+ 20
+-715.047
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10013.615
+ 20
+-741.755
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-10004.953
+ 20
+-744.851
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9938.155
+ 20
+-765.071
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9869.849
+ 20
+-779.392
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9800.555
+ 20
+-787.705
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9730.8
+ 20
+-789.947
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9661.115
+ 20
+-786.101
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9592.03
+ 20
+-776.196
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9524.072
+ 20
+-760.308
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9457.756
+ 20
+-738.558
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9393.589
+ 20
+-711.11
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9332.058
+ 20
+-678.174
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9273.632
+ 20
+-640.001
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9218.756
+ 20
+-596.881
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9167.846
+ 20
+-549.142
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9121.291
+ 20
+-497.148
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-9115.5
+ 20
+-490
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2115.999
+ 20
+-490
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-2115.999
+ 20
+-1490
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-2302.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-2388.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-2474.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-2559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-2645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-2731.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-2816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-2902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-2988.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-3074.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-3159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-3245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-3331.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-3416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-3502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-3588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-3674.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-3759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-3845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-3931.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-4016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-4102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-4188.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-4274.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-4359.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-4445.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-4531.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-4616.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-4702.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-4788.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-4874.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-4959.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-5045.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-5131.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-5216.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-5302.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-5388.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-5474.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-5559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-5645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-5731.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-5816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-5902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-5988.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-6074.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-6159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-6245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-6331.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-6416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-6502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-6588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-6674.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-6759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-6845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-6931.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1578.857
+ 20
+-7016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1664.571
+ 20
+-7102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1450.716
+ 20
+-7316.543
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-7102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-7016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-6931.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-6845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-6759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-6674.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-6588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-6502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-6416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-6331.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-6245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-6159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-6074.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-5988.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-5902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-5816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-5731.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-5645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-5559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-5474.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-5388.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-5302.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-5216.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-5131.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-5045.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-4959.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-4874.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-4788.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-4702.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-4616.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-4531.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-4445.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-4359.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-4274.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-4188.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-4102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-4016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-3931.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-3845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-3759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-3674.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-3588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-3502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-3416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-3331.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-3245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-3159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-3074.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-2988.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-2902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-2816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-2731.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1236.861
+ 20
+-2645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1322.575
+ 20
+-2559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1151.147
+ 20
+-2388.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-2559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-2645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-2731.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-2816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-2902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-2988.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-3074.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-3159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-3245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-3331.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-3416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-3502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-3588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-3674.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-3759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-3845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-3931.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-4016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-4102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-4188.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-4274.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-4359.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-4445.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-4531.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-4616.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-4702.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-4788.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-4874.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-4959.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-5045.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-5131.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-5216.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-5302.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-5388.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-5474.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-5559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-5645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-5731.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-5816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-5902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-5988.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-6074.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-6159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-6245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-6331.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-6416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-6502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-6588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-6674.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-6759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-6845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-6931.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-979.718
+ 20
+-7016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-7102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1065.433
+ 20
+-7336.426
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1516.861
+ 20
+-8061.246
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1516.861
+ 20
+-9861.246
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1569.387
+ 20
+-9907.2
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1617.708
+ 20
+-9957.558
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1661.456
+ 20
+-10011.935
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1700.299
+ 20
+-10069.918
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1733.94
+ 20
+-10131.066
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1762.124
+ 20
+-10194.914
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1784.635
+ 20
+-10260.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1801.304
+ 20
+-10328.746
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1812.002
+ 20
+-10397.712
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1816.649
+ 20
+-10467.348
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1815.209
+ 20
+-10537.124
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1807.694
+ 20
+-10606.51
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1794.159
+ 20
+-10674.976
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1774.709
+ 20
+-10742.002
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1771.712
+ 20
+-10750.699
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1745.747
+ 20
+-10815.48
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1714.235
+ 20
+-10877.752
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1677.416
+ 20
+-10937.041
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1635.569
+ 20
+-10992.895
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1589.014
+ 20
+-11044.889
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1538.104
+ 20
+-11092.628
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1483.227
+ 20
+-11135.748
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1424.801
+ 20
+-11173.921
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1363.27
+ 20
+-11206.857
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1299.103
+ 20
+-11234.304
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1232.788
+ 20
+-11256.055
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1164.829
+ 20
+-11271.943
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1095.744
+ 20
+-11281.847
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1026.059
+ 20
+-11285.693
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1016.861
+ 20
+-11285.746
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-947.136
+ 20
+-11282.702
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-877.942
+ 20
+-11273.592
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-809.806
+ 20
+-11258.487
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-743.245
+ 20
+-11237.5
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-678.766
+ 20
+-11210.792
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-616.861
+ 20
+-11178.566
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-557.999
+ 20
+-11141.067
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-502.63
+ 20
+-11098.581
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-451.175
+ 20
+-11051.431
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-404.025
+ 20
+-10999.975
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-361.539
+ 20
+-10944.606
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-324.04
+ 20
+-10885.745
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-291.814
+ 20
+-10823.84
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-265.107
+ 20
+-10759.361
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-262.01
+ 20
+-10750.699
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-241.79
+ 20
+-10683.901
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-227.469
+ 20
+-10615.595
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-219.156
+ 20
+-10546.301
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-216.914
+ 20
+-10476.546
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-220.76
+ 20
+-10406.861
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-230.664
+ 20
+-10337.777
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-246.552
+ 20
+-10269.818
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-268.303
+ 20
+-10203.503
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-295.751
+ 20
+-10139.336
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-328.686
+ 20
+-10077.805
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-366.859
+ 20
+-10019.379
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-409.979
+ 20
+-9964.502
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-457.718
+ 20
+-9913.593
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-509.712
+ 20
+-9867.037
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-516.861
+ 20
+-9861.246
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-516.861
+ 20
+-8061.246
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-7336.426
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-7102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-7016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-6931.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-6845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-6759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-6674.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-6588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-6502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-6416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-6331.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-6245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-6159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-6074.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-5988.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-5902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-5816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-5731.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-5645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-5559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-5474.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-5388.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-5302.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-5216.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-5131.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-5045.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-4959.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-4874.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-4788.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-4702.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-4616.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-4531.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-4445.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-4359.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-4274.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-4188.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-4102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-4016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-3931.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-3845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-3759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-3674.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-3588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-3502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-3416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-3331.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-3245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-3159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-3074.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-2988.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-2902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-2816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-2731.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1023.006
+ 20
+-2645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-937.292
+ 20
+-2559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1151.147
+ 20
+-2345.976
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-2559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-2645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-2731.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-2816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-2902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-2988.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-3074.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-3159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-3245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-3331.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-3416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-3502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-3588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-3674.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-3759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-3845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-3931.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-4016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-4102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-4188.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-4274.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-4359.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-4445.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-4531.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-4616.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-4702.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-4788.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-4874.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-4959.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-5045.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-5131.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-5216.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-5302.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-5388.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-5474.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-5559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-5645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-5731.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-5816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-5902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-5988.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-6074.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-6159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-6245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-6331.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-6416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-6502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-6588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-6674.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-6759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-6845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-6931.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1365.002
+ 20
+-7016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1279.288
+ 20
+-7102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1450.716
+ 20
+-7274.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-7102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-7016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-6931.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-6845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-6759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-6674.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-6588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-6502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-6416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-6331.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-6245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-6159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-6074.116
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-5988.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-5902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-5816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-5731.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-5645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-5559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-5474.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-5388.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-5302.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-5216.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-5131.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-5045.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-4959.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-4874.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-4788.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-4702.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-4616.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-4531.259
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-4445.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-4359.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-4274.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-4188.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-4102.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-4016.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-3931.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-3845.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-3759.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-3674.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-3588.402
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-3502.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-3416.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-3331.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-3245.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-3159.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-3074.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-2988.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-2902.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-2816.974
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-2731.26
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-2645.545
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-2559.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-2474.117
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1536.43
+ 20
+-2388.403
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1622.145
+ 20
+-2302.688
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1115.999
+ 20
+-1490
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-1115.999
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-615.999
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-530.285
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-444.571
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-358.857
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-273.142
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-187.428
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-101.714
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-16
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+69.715
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+155.429
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+241.143
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+326.858
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+412.572
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+498.286
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+584
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+669.715
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+755.429
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+841.143
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+926.857
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1012.572
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1098.286
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1184
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1269.715
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1355.429
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1441.143
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1526.857
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1612.572
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1698.286
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1784
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1869.715
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1955.429
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2041.143
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2126.857
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2212.572
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2298.286
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2384
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2469.714
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2555.429
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2641.143
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2726.857
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2812.572
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2898.286
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2984
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3069.714
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3155.429
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3241.143
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3326.857
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3412.572
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3498.286
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3584
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3669.714
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3755.429
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3841.143
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3926.857
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4012.571
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4098.286
+ 20
+47.143
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4184
+ 20
+-38.572
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4397.855
+ 20
+175.283
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4184
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4098.286
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4012.571
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3926.857
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3841.143
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3755.429
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3669.714
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3584
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3498.286
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3412.572
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3326.857
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3241.143
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3155.429
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3069.714
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2984
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2898.286
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2812.572
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2726.857
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2641.143
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2555.429
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2469.714
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2384
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2298.286
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2212.572
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2126.857
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2041.143
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1955.429
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1869.715
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1784
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1698.286
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1612.572
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1526.857
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1441.143
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1355.429
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1269.715
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1184
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1098.286
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1012.572
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+926.857
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+841.143
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+755.429
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+669.715
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+584
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+498.286
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+412.572
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+326.858
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+241.143
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+155.429
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+69.715
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-16
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-101.714
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-187.428
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-273.142
+ 20
+389.138
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-358.857
+ 20
+303.424
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-530.285
+ 20
+474.853
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-358.857
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-273.142
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-187.428
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-101.714
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+-16
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+69.715
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+155.429
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+241.143
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+326.858
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+412.572
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+498.286
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+584
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+669.715
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+755.429
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+841.143
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+926.857
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1012.572
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1098.286
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1184
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1269.715
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1355.429
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1441.143
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1526.857
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1612.572
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1698.286
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1784
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1869.715
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+1955.429
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2041.143
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2126.857
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2212.572
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2298.286
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2384
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2469.714
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2555.429
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2641.143
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2726.857
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2812.572
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2898.286
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+2984
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3069.714
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3155.429
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3241.143
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3326.857
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3412.572
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3498.286
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3584
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3669.714
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3755.429
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3841.143
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+3926.857
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4012.571
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4098.286
+ 20
+646.281
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4184
+ 20
+560.567
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+4394
+ 20
+532.283
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+14894
+ 20
+-13516.437
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+25394
+ 20
+532.283
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+25604
+ 20
+532.283
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+28417.333
+ 20
+475.885
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+29049.171
+ 20
+105.077
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31153.471
+ 20
+105.077
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31199.425
+ 20
+52.551
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31249.783
+ 20
+4.23
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31304.16
+ 20
+-39.518
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31362.143
+ 20
+-78.361
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31423.291
+ 20
+-112.002
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31487.139
+ 20
+-140.185
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31553.199
+ 20
+-162.697
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31620.971
+ 20
+-179.365
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31689.937
+ 20
+-190.064
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31759.573
+ 20
+-194.711
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31829.349
+ 20
+-193.271
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31898.734
+ 20
+-185.755
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31967.201
+ 20
+-172.22
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32034.226
+ 20
+-152.77
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32042.924
+ 20
+-149.773
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32107.705
+ 20
+-123.808
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32169.977
+ 20
+-92.297
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32229.266
+ 20
+-55.477
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32285.12
+ 20
+-13.631
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32337.114
+ 20
+32.924
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32384.852
+ 20
+83.834
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32427.972
+ 20
+138.711
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32466.146
+ 20
+197.137
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32499.081
+ 20
+258.667
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32526.529
+ 20
+322.834
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32548.279
+ 20
+389.149
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32564.168
+ 20
+457.108
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32574.072
+ 20
+526.192
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32577.918
+ 20
+595.877
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32577.971
+ 20
+605.077
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32574.927
+ 20
+674.802
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32565.817
+ 20
+743.996
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32550.712
+ 20
+812.132
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32529.725
+ 20
+878.693
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32503.017
+ 20
+943.172
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32470.791
+ 20
+1005.077
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32433.293
+ 20
+1063.938
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32390.807
+ 20
+1119.307
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32343.656
+ 20
+1170.762
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32292.201
+ 20
+1217.913
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32236.832
+ 20
+1260.399
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32177.971
+ 20
+1297.897
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32116.066
+ 20
+1330.123
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32051.587
+ 20
+1356.831
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+32042.924
+ 20
+1359.928
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31976.126
+ 20
+1380.148
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31907.82
+ 20
+1394.469
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31838.526
+ 20
+1402.782
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31768.771
+ 20
+1405.024
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31699.086
+ 20
+1401.179
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31630.001
+ 20
+1391.274
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31562.043
+ 20
+1375.386
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31495.728
+ 20
+1353.635
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31431.561
+ 20
+1326.188
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31370.03
+ 20
+1293.252
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31311.604
+ 20
+1255.079
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31256.727
+ 20
+1211.959
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31205.817
+ 20
+1164.22
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31159.262
+ 20
+1112.226
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+31153.471
+ 20
+1105.078
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+29049.171
+ 20
+1105.077
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+28417.333
+ 20
+687.606
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+25604
+ 20
+631.278
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+25394
+ 20
+631.278
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+14894
+ 20
+10512.3
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_10
+ 10
+14894
+ 20
+10295.313
+  0
+SEQEND
+  0
+POLYLINE
+100
+AcDb2dPolyline
+  8
+layer_7
+ 66
+   1
+ 70
+   1
+ 40
+0.0
+ 41
+0.0
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_7
+ 10
+14894
+ 20
+10295.313
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_7
+ 10
+4737.209
+ 20
+737.268
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_7
+ 10
+25050.791
+ 20
+737.268
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_7
+ 10
+14894
+ 20
+10295.313
+  0
+SEQEND
+  0
+POLYLINE
+100
+AcDb2dPolyline
+  8
+layer_7
+ 66
+   1
+ 70
+   1
+ 40
+0.0
+ 41
+0.0
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_7
+ 10
+4722.243
+ 20
+426.293
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_7
+ 10
+14894
+ 20
+-13183.246
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_7
+ 10
+25065.757
+ 20
+426.293
+  0
+VERTEX
+100
+AcDbVertex
+100
+AcDb2dVertex
+  8
+layer_7
+ 10
+4722.243
+ 20
+426.293
+  0
+SEQEND
+  0
+TEXT
+100
+AcDbText
+  8
+DEFPOINTS
+ 10
+-10540
+ 20
+10512.3
+ 11
+-10540
+ 21
+10512.3
+ 30
+   0
+ 40
+-0.016
+  1
+Generated with the LayoutEditor (This message will NOT be added by any commercial version of the LayoutEditor.)
+ 50
+0
+ 72
+0
+ 73
+3
+  0
+ENDSEC
+  0
+EOF
