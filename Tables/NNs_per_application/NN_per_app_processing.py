@@ -8,7 +8,7 @@ xls = pd.ExcelFile(file_path)
 df = pd.read_excel(xls, sheet_name=xls.sheet_names[0])
 
 # Group the data by 'Application' and 'Year' and count the number of rows in each group
-count_per_app_year = df.groupby(['Application', 'Year']).size().reset_index(name='Count')
+count_per_app_year = df.groupby(['Section', 'Publication Year']).size().reset_index(name='Count')
 
 # Save the result to an Excel file
 count_per_app_year.to_excel('D:/code/NN_molecular_communications/Tables/NNs_per_application/3_count_per_application_and_year.xlsx', index=False)
