@@ -1,11 +1,8 @@
-w_3,x0_000186869_m_,widthOfPipe3
-w_2,0.000134343[m],width of Pipe 2
-w_1,0.114141[mm],Width of Pipe 1
-w_0,9.8995e-05[m],Width Inlet
 varphi_3,1.98704[rad],Angle of Pipe 3
 varphi_2,1.88315[rad],Angle of Pipe 2
 Var1,Var2,Var3
 time_simul,40[s],Simulation duration
+time_delta,0.0166667[s],Simulation time step
 rho_Na,M_Na*c_Na,Density of Sodium
 radius_cylinder_1,20[um],Radius of the cilinder 1
 r_out_1,2*radius_cylinder_1+r_in_1,See Eq. (41) in ref bicen2013system
@@ -14,34 +11,10 @@ Q_inlet_CNN,5.0[ul/min],
 pulse_transition,0[ms],Pulse transition of the concentration at the Inlet 1.
 pulse_duration,1[ms],Pulse duration of the concentration at the Inlet 1.
 p0,4.4146[mbar],Pressure level at the inlet
-P_u322_y,0.000214005[m],y-Coordinates for P_u322
-P_u322_x,0.0810215[m],x-Coordinates for P_u322
-P_u310_y,0.000214005[m],y-Coordinates for P_u310
-P_u310_x,0.000102773[m],x-Coordinates for P_u310
-P_u31_y,5.70707e-05[m],y-Coordinates for P_u31
-P_u31_x,0[m],x-Coordinates for P_u31
-P_u222_y,-0.000165685[m],y-Coordinates for P_u222
-P_u222_x,0.0810452[m],x-Coordinates for P_u222
-P_u210_y,-0.000165685[m],y-Coordinates for P_u210
-P_u210_x,7.90632e-05[m],x-Coordinates for P_u210
 P_u21_y,0.000155358[m],y-Coordinates for P_b23
 P_u21_x,0.00021[m],x-Coordinates for P_b21
-P_b33_y,5.70707e-05[m],y-Coordinates for P_b33
-P_b33_x,0.0807818[m],x-Coordinates for P_b33
-P_b31_y,5.70707e-05[m],y-Coordinates for P_b31
-P_b31_x,0.000342412[m],x-Coordinates for P_b31
-P_b23_y,-5.70707e-05[m],y-Coordinates for P_b23
-P_b23_x,0.080896[m],x-Coordinates for P_b23
-P_b21_y,-5.70707e-05[m],y-Coordinates for P_b21
-P_b21_x,0.000228275[m],x-Coordinates for P_b21
-n_Pipe_3_inlet_z,-0,y-Coordinates for n_Pipe_3_inlet
-n_Pipe_3_inlet_y,0.836573,y-Coordinates for n_Pipe_3_inlet
-n_Pipe_3_inlet_x,0.547855,x-Coordinates for n_Pipe_3_inlet
 N_Na,100,Number of released Sodium ions
 M_Na,22.99[g/mol],Molar mass of Sodium
-L_3,0.148649[m],Length of Pipe 3
-L_2,0.137845[m],Length of Pipe 2
-L_1,81.1242[mm],Length of Pipe 1
 delta_Y,9.25187e-07[m],resolution in the Y-axis
 D_Tartrazine,4.9*10^(-10)[m^2/s],
 D_NaOH,5.3*10^(-9)[m^2/s],Diffusion coeff of Sodium Hydroxide in water
@@ -56,4 +29,35 @@ c_Na,10[mol/m^3],concentration of species.
 c_H2O_ini,0,Initial concentration of water. It is zero as it is a produce of the reaction.
 c_CH3COONa_ini,0,Initial concentration of the reaction product.
 height_pipe,27[um],height of pipes
-time_delta,0.01[s],Simulation sampling time
+L_1,81.1242[mm],Length of Pipe 1
+w_1,0.114141[mm],Width of Pipe 1
+P_b23_x,0.080896[m],x-Coordinates for P_b23
+P_b23_y,-5.70707e-05[m],y-Coordinates for P_b23
+P_b33_x,0.0807818[m],x-Coordinates for P_b33
+P_b33_y,5.70707e-05[m],y-Coordinates for P_b33
+P_u222_x,0.0810452[m],x-Coordinates for P_u222
+P_u222_y,-0.000165685[m],y-Coordinates for P_u222
+P_u322_x,0.0810223[m],x-Coordinates for P_u322
+P_u322_y,0.000213658[m],y-Coordinates for P_u322
+P_u210_x,7.90632e-05[m],x-Coordinates for P_u210
+P_u210_y,-0.000165685[m],y-Coordinates for P_u210
+P_b21_x,0.000228275[m],x-Coordinates for P_b21
+P_b21_y,-5.70707e-05[m],y-Coordinates for P_b21
+P_b31_x,0.000342412[m],x-Coordinates for P_b31
+P_b31_y,5.70707e-05[m],y-Coordinates for P_b31
+P_u310_x,0.000101982[m],x-Coordinates for P_u310
+P_u310_y,0.000213658[m],y-Coordinates for P_u310
+P_u31_x,0[m],x-Coordinates for P_u31
+P_u31_y,5.70707e-05[m],y-Coordinates for P_u31
+P_u33_x,0.0811242[m],x-Coordinates for P_u31
+P_u33_y,5.70707e-05[m],y-Coordinates for P_u31
+P_u23_x,0.0811242[m],x-Coordinates for P_u31
+P_u23_y,-5.70707e-05[m],y-Coordinates for P_u31
+L_2,0.137845[m],Length of Pipe 2
+w_2,0.000134343[m],width of Pipe 2
+L_3,0.148649[m],Length of Pipe 3
+w_3,0.000186869[m],width of Pipe 3
+w_0,9.8995e-05[m],Width Inlet
+n_Pipe_3_inlet_x,0.545742,x-Coordinates for n_Pipe_3_inlet
+n_Pipe_3_inlet_y,0.837953,y-Coordinates for n_Pipe_3_inlet
+n_Pipe_3_inlet_z,-0,y-Coordinates for n_Pipe_3_inlet
