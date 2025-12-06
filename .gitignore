@@ -524,3 +524,5 @@ Section_IV_BioComputing/COMSOL_CNN_Tx_Q_5_uL_tetrazine_Design_1/COMSOL_3D_CNN_De
 Section_IV_BioComputing/COMSOL_CNN_Tx_Q_5_uL_tetrazine_Design_2/COMSOL_3D_CNN_Design_1_2_Phase_2.mph
 *.mph
 Section_IV_BioComputing/slides/CNN_design.pptx
+*.json
+*.tmp
