@@ -1,8 +1,13 @@
-# Distance Estimator
-This project develops a neural network (NN) module for detecting the distance among cells.
+# Tables and Figures
+Code for plotting for extracting metadata from papers that investigate NN architectures for IoBNT networks.
 
 ## Description
-This project develops a NN module to estimate the distance among cells. The project features the application where the distance to a tumor cell is estimated based on the vesicles-amount observed at the immune cell; see Fig. 1 below. Cancer and immune cells exchange vesicles in close proximity to each other, and the concentration level of vesicles can be used to estimate distance as it is a distance-dependent process.
+This folder encommpasses code for extracting metadata from published papers that research the application of neural networks (NNs) for the internet of bio-nano-things (IoBNT) networks.
+The references are those listed in [1] and the metadata refers to the following per publication:
+- Publication Year spanning from 2017 to 2025,
+- Reported communication layer: PHY, MAC, Upper layer, Application layer,
+- Reported NN architecture: Feedforward, RNN, Autoencoders, CNN, Reinforcement Learning, Transformer,
+- Molecular communication scenario: Free-diffusion, Drifted, Vessel-like channels, Open air, bacteria colony.
 
 <figure>
     <p align="center">
@@ -13,7 +18,15 @@ This project develops a NN module to estimate the distance among cells. The proj
 Fig. 1: Components for estimating the distance among cell using a feedforward NN.
 </p>
 
-The dataset is created with the code provided by the authors in [1] comprising the number of released vesicles at the Immune cell with time, as illustrated in Fig. 1a. This number of vesicles depends on the distance to the tumor cell, which is the parameter to estimate The dataset is processed to evaluate the slope, see the subfigure in Fig. 1a, from the slope the peak amplitude and location are taken as the two features to train and deploy the neural network.
+We have the following code per folder:
+
+## 📂 Folder Structure
+
+- 📁 [Fig_1_trends](./Fig_1_trends)
+- 📁 [docs](./docs)
+- 📁 [tests](./tests)
+
+
 
 The NN is a low-complexity feedforward architecture implemented in MATLAB and comprises a single layer and two nodes. The output of the NN is the predicted distance, as illustrated in Fig. 1c, the model devise a quite accurate estimator.
 
@@ -44,8 +57,7 @@ Interested contributors can contact the project owner. Please refer to the Conta
 We want to acknoledge the support provided by Mohammad Zoofaghari, author of the paper in [1] for giving us the code to generate the dataset.
 
 ## References
-<a name="fn1">[1]</a>: M. Zoofaghari, F. Pappalardo, M. Damrath, and I. Balasingham, “Modeling Extracellular Vesicles-Mediated Interactions of Cells in the Tumor Microenvironment,” IEEE Transactions on NanoBioscience,
-vol. 23, no. 1, pp. 71–80, Jan. 2024. [Link](https://ieeexplore.ieee.org/document/10149035)
+<a name="fn1">[1]</a>: Jorge Torres Gómez, Pit Hofmann, Lisa Y. Debus, Osman Tugay Basaran, Sebastian Lotter, Roya Khanzadeh, Stefan Angerbauer, Bige Deniz Unluturk, Sergi Abadal, Werner Haselmayr, Frank H. P. Fitzek, Robert Schober and Falko Dressler, "Communicating Smartly in Molecular Communication Environments: Neural Networks in the Internet of Bio-Nano Things," arXiv, eess.SP, 2506.20589, June 2025.
 
 ## Contact Information
 
