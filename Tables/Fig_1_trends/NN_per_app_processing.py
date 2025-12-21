@@ -11,7 +11,7 @@ df = pd.read_excel(xls, sheet_name=xls.sheet_names[0])
 count_per_app_year = df.groupby(['Section', 'Publication Year']).size().reset_index(name='Count')
 
 # Save the result to an Excel file
-count_per_app_year.to_excel('D:/code/NN_molecular_communications/Tables/NNs_per_application/2_count_per_layer_and_year.xlsx', index=False)
+count_per_app_year.to_excel('D:/code/NN_molecular_communications/Tables/Fig_1_trends/2_count_per_layer_and_year.xlsx', index=False)
 
 print("The data has been successfully processed and saved to 'count_per_application_and_year.xlsx'.")
 
