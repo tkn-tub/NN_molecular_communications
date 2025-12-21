@@ -11,11 +11,11 @@ The references are those listed in [1] and the metadata refers to the following 
 
 <figure>
     <p align="center">
-        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/distance_estimator.png?raw=true" alt="nn" width="500">
+        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/trends.png?raw=true" alt="nn" width="500">
     </p>
 </figure>
 <p align="center">
-Fig. 1: Components for estimating the distance among cell using a feedforward NN.
+Fig. 1: Trends in contributions related to {NN} research for the {IoBNT}.
 </p>
 
 We have the following code per folder:
@@ -23,25 +23,26 @@ We have the following code per folder:
 ## 📂 Folder Structure
 
 - 📁 [Fig_1_trends](./Fig_1_trends)
+    - This folder develops the Fig. 1 in reference [1].
+    This figure, illustrated in Fig.1, summarizes the number of contribution per communication layer and per year.
 - 📁 [docs](./docs)
 - 📁 [tests](./tests)
 
 
-
-The NN is a low-complexity feedforward architecture implemented in MATLAB and comprises a single layer and two nodes. The output of the NN is the predicted distance, as illustrated in Fig. 1c, the model devise a quite accurate estimator.
-
 ## Installation
-This code is tested in MATLAB 2023b, and the required toolboxes are listed in the table below.
-
-| Matlab Toolbox  | Version |
-| ------------- | ------------- |
-| System Identification Toolbox  | 23.2  |
-| Deep Learning Toolbox  | 23.2  |
-|Statistics and Machine Learning Toolbox|23.2|
+The corresponding Matlab code is tested in Matlab 2025a and the corresponding Phyton code is tested in Visual Studio Code, version 1.107.1.
 
 ## Usage
 
-This project directly runs from the file `A_Master_File.mlx`, where the NN model is trained and deployed. This file calls to the other two project files `Parameters.mlx` and optionally to `Dataset_compiler.mlx`. By default, the code loads the stored file `Dataset_cell2cell.mat`, accesible on the [IEEE DataPort portal at this link](https://ieee-dataport.org/documents/dataset-cell-cell-communications) after loggin or in the [Ocean Code portal (dataset folder) at this link](https://codeocean.com/capsule/6777864/tree/v1) (withouth any loggin requirements).
+The code runs directly from the files listed on each folder as follows
+
+- 📁 [Fig_1_trends](./Fig_1_trends)
+    - The code in this folder is divided into two parts:
+        1) The Phyton code in the file `NN_per_layer.py` file load the references listed in the excel file `1_References.xlsx`.
+        These references follows those listed in [1].
+        This code evaluates the number of contributions per year and per communication layer and outputs the excel file `2_count_per_layer_and_year.xlsx`.
+        The produced excel file comprises a table of three colums listing the communciaton layer, publication year, and number of contributions.
+        2) The Matlab code `NN_per_app.mlx` prints Fig. 1 taking the data in the file `2_count_per_layer_and_year.xlsx`.
 
 ## Features
 - **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx`, originally provided by Mohammad Zoofaghari, follows the mathematical developments in [1].
