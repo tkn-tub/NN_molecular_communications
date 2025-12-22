@@ -23,11 +23,10 @@ We have the following code per folder:
 ## 📂 Folder Structure
 
 - 📁 [Fig_1_trends](./Fig_1_trends)
-    - This folder develops the Fig. 1 in reference [1].
-    This figure, illustrated in Fig.1, summarizes the number of contribution per communication layer and per year.
-- 📁 [docs](./docs)
-- 📁 [tests](./tests)
-
+    - The code in this folder develops the Fig. 1 in reference [1].
+    This figure, illustrated in Fig. 1, summarizes the number of contribution per communication layer and per year.
+- 📁 [Fig_10_NN_Architectures](./Fig_10_NN_Architectures)
+    - The code in this folder evaluates the values for the plot in Fig. 10 in reference [1]. The figure, here illustrated in Fig. 2, evaluates the total of publications per NN architecture, MC scenario, and IoBNT layer.
 
 ## Installation
 The corresponding Matlab code is tested in Matlab 2025a and the corresponding Phyton code is tested in Visual Studio Code, version 1.107.1.
@@ -42,7 +41,15 @@ The code runs directly from the files listed on each folder as follows
         These references follows those listed in [1].
         This code evaluates the number of contributions per year and per communication layer and outputs the excel file `2_count_per_layer_and_year.xlsx`.
         The produced excel file comprises a table of three colums listing the communciaton layer, publication year, and number of contributions.
-        2) The Matlab code `NN_per_app.mlx` prints Fig. 1 taking the data in the file `2_count_per_layer_and_year.xlsx`.
+        2) The Matlab code in `NN_per_app.mlx` prints Fig. 1 taking the data in the file `2_count_per_layer_and_year.xlsx`.
+
+- 📁 [Fig_10_NN_Architectures](./Fig_10_NN_Architectures)
+    - The Matlab code in `NN_architectures_per_MC_scenario_IoBNT_layer.mlx` reads the data from from the excel file `References_vs_NN_MC_scenario.xlsx`.
+    The code writes in the excel file a new sheet per NN architecture, calculating the number of entries per MC scenario and IoBNT layer.
+    - The excel file `References_vs_NN_MC_scenario.xlsx` includes in the first sheet the references listed in [1] per NN Architecture, MC scenario, and IoBNT layer.
+    In the second sheet it lists the different categories.
+    These two sheets were manually evaluated following the description of each reference, as given in [1].
+
 
 ## Features
 - **Realistic model for vesicles exchange among cells:** This code evaluates a realistic model for the exchange of molecules between immune and cancer cells. The code within the file `Dataset_compiler.mlx`, originally provided by Mohammad Zoofaghari, follows the mathematical developments in [1].
