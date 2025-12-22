@@ -67,9 +67,6 @@ The code runs directly from the files listed on each folder as follows
 ## License
 ![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
 
-## Acknowledgements
-We want to acknoledge the support provided by Mohammad Zoofaghari, author of the paper in [1] for giving us the code to generate the dataset.
-
 ## References
 <a name="fn1">[1]</a>: Jorge Torres Gómez, Pit Hofmann, Lisa Y. Debus, Osman Tugay Basaran, Sebastian Lotter, Roya Khanzadeh, Stefan Angerbauer, Bige Deniz Unluturk, Sergi Abadal, Werner Haselmayr, Frank H. P. Fitzek, Robert Schober and Falko Dressler, "Communicating Smartly in Molecular Communication Environments: Neural Networks in the Internet of Bio-Nano Things," arXiv, eess.SP, 2506.20589, June 2025.
 
