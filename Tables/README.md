@@ -38,6 +38,11 @@ We have the following code per folder:
     - The code in this folder evaluates the values for the plot in Fig. 10 in reference [1].
     The figure, illustrated in Fig. 2, shows the total number of publications for each NN architecture, molecular communication (MC) scenario, and IoBNT layer.
 
+- 📁 [Tables](./Tables)
+    - This folder includes the Excel file `Tables_1_5.xlsx`, which contains tables 1 to 5 in reference [1].
+    These tables were compiled manually, following the various sections in [1].
+    The tables in the Excel file were later converted to LaTeX code using the plugin [Excel2LaTeX](https://github.com/ivankokan/Excel2LaTeX).
+
 ## Installation
 The corresponding MATLAB code is tested in MATLAB 2025a, and the corresponding Python code is tested in Visual Studio Code, version 1.107.1.
 
