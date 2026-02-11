@@ -1,0 +1,35 @@
+E 75362[J/mol] Activation energy
+A 16.96e12[1/h] Frequency factor
+ke 0.559[W/m/K] Thermal conductivity
+Diff 1e-9[m^2/s] Diffusion coefficient
+Uk 1300[W/m^2/K] Overall heat-transfer coefficient
+dHrx -84666[J/mol] Heat of reaction
+T0 312[K] Inlet temperature
+Ta0 277[K] Inlet temperature of the coolant
+v0 v_w0+v_po0+v_m0 Total flow rate
+cA0 n_po0/v0 Propylene oxide concentration, inlet
+cB0 n_w0/v0 Water concentration, inlet
+cMe0 n_m0/v0 Methanol concentration, inlet
+Cp0 (Cp_po*cA0+Cp_m*cMe0+Cp_w*cB0)/rho0 Heat capacity at inlet
+rho0 (cA0*M_po+cB0*M_w+cMe0*M_m) Density at inlet
+Ra 0.1[m] Reactor radius
+L 1[m] Reactor length
+M_po 58.095[g/mol] Molar weight, propylene oxide
+M_m 32.042[g/mol] Molar weight, methanol
+M_w 18[g/mol] Molar weight, water
+rho_po_p 830[kg/m^3] Density, propylene oxide
+rho_m_p 791.3[kg/m^3] Density, methanol
+rho_w_p 1000[kg/m^3] Density, water
+Cp_po 146.54[J/mol/K] Specific heat, po
+Cp_m 81.095[J/mol/K] Specific heat, m
+Cp_w 75.36[J/mol/K] Specific heat, w
+Cp_pg 192.59[J/mol/K] Specific heat, pg
+v_ratio 3.5 Ratio water flow rate / (prop+me) flow rate
+n_po0 0.1[mol/s] Molar flow rate po in
+n_m0 v_po0*rho_m_p/M_m Molar flow rate m in
+v_po0 n_po0*M_po/rho_po_p Volumetric flow rate po in
+v_m0 v_po0 Volumetric flow rate m in
+v_w0 v_ratio*(v_po0+v_m0) Volumetric flow rate w in
+n_w0 rho_w_p*v_w0/M_w Molar flow rate w in
+Cpc 4180[J/(kg*K)] Heat capacity, cooling fluid
+mc 0.1[kg/s] Mass flow rate, cooling fluid
