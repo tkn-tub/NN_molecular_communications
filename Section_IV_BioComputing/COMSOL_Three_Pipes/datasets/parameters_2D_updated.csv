@@ -9,7 +9,7 @@ D_H2O,2.29*10^(-9)[cm^2/s],Diffusion coeff of water in water.
 d_Na,358[pm],Diameter of Sodium
 D_Na,1.33e-9[m^2/s],Diffusion coeff of Na in H2O.
 D_NaOH,5.3*10^(-9)[m^2/s],Diffusion coeff of Sodium Hydroxide in water
-D_Tartrazine,4.9e-10[mol/m^3],Updated inlet concentration.
+D_Tartrazine,4.9*10^(-10)[m^2/s],
 height_pipe,36[um],height of pipes
 M_Na,22.99[g/mol],Molar mass of Sodium
 N_Na,100,Number of released Sodium ions
@@ -23,8 +23,8 @@ radius_cylinder_1,20[um],Radius of the cilinder 1
 rho_Na,M_Na*c_Na,Density of Sodium
 time_delta,0.01[s],Simulation time step
 time_simul,10[s],Simulation duration
-L_1,0.0380606060606061[m],Length of Pipe_1
-w_1,0.000123232323232323[m],Width of Pipe 1
+L_1,20[mm],Length of Pipe 1
+w_1,0.21198[mm],Width of Pipe 1
 P_u21_x,0.00021[m],x-Coordinates for P_b21
 P_u21_y,0.000155358[m],y-Coordinates for P_b23
 P_b23_x,0.0208668[m],x-Coordinates for P_b23
@@ -59,15 +59,5 @@ K_water,1E-14*1E6[mol/m^3],equilibrium constant of H2O=H++OH-
 K_CH3COOH,1.8E-5*1E3[mol/m^3],equilibrium constant of Acetic Acid in Water
 L_1_biff,L_1/2,length of the biffurcation
 w_1_biff,w_1,width of the biffurcation
-alpha,0.7,factor of w_1 for the biffurcation
+alpha,0.25,factor of w_1 for the biffurcation
 L_sensor,L_1/10,side of the sensor (square)
-L_1_upper,0.000430531481674846[m],Lenght of upper biffurcation
-L_factor,0.1,Factor of Length L_1 to determine the lenght of the lower biffurcation pipe
-f_molecules,0.5,Factor of reduced number of molecules
-f_molecules_Phase_1,0.5,Factor of reduced number of molecules
-L_1_upper_Phase_1,0.000855382293965986[m],Lenght of upper biffurcation
-alpha_Phase_1,0.7,factor of w_1 for the biffurcation
-f_molecules_Phase_2,0.375,Factor of reduced number of molecules
-L_1_upper_Phase_2,0.000258318889004907[m],Lenght of upper biffurcation
-alpha_Phase_2,0.7,factor of w_1 for the biffurcation
-L_1_Phase_2,0.0200944699143963[m],Lenght of the Pipe 1 in Phase 2
