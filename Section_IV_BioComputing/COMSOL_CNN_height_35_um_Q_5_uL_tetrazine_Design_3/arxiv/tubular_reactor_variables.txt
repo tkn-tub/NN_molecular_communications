@@ -1,8 +1,0 @@
-u0 v0/(pi*Ra^2) Average flow rate
-uz 2*u0*(1-(r/Ra)^2) Laminar flow profile
-xA (cA0-cA)/cA0 Conversion species A
-cB cB0-cA0*xA Concentration species B
-cC cA0*xA Concentration species C
-rA -A*exp(-E/R_const/T)*cA Reaction rate
-Q (-rA)*(-dHrx) Heat production term
-cpm (Cp_po*cA+Cp_m*cMe0+Cp_w*cB)/rho0 Mixture specific heat

@@ -1,5 +1,0 @@
- - Feature: Stationary Solver 1 (sol1/s1)
-Failed to find a solution.
-Matrix has zero on diagonal for the SSOR update submatrix in the Vanka algorithm.
-Returned solution is not converged.
-Not all parameter steps returned.
