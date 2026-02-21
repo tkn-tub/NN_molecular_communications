@@ -16,20 +16,23 @@ D_NaOH,5.3*10^(-9)[m^2/s],Diffusion coeff of Sodium Hydroxide in water
 D_Tartrazine,4.9e-10[mol/m^3],Updated inlet concentration.
 delta_Y,9.25187e-07[m],resolution in the Y-axis
 f_molecules,0.5,Factor of reduced number of molecules
-f_molecules_Phase_1,0.5,Factor of reduced number of molecules
+f_molecules_Phase_1,0.310491594292176,Factor of reduced number of molecules
 f_molecules_Phase_2,0.375,Factor of reduced number of molecules
 height_pipe,36[um],height of pipes
 K_CH3COOH,1.8E-5*1E3[mol/m^3],equilibrium constant of Acetic Acid in Water
 K_water,1E-14*1E6[mol/m^3],equilibrium constant of H2O=H++OH-
-L_1,0.016[m],Length of Pipe_1
+L_1,0.0202892176697184[m],Length of Pipe_1
 L_1_biff,L_1/2,length of the biffurcation
+L_1_branch,0.000534398014146845[m],Lenght of upper biffurcation
 L_1_Phase_2,0.018524618053031[m],Lenght of the Pipe 1 in Phase 2
 L_1_upper,0.000430531481674846[m],Lenght of upper biffurcation
-L_1_upper_Phase_1,0.000855382293965986[m],Lenght of upper biffurcation
+L_1_upper_Phase_1,0.000294996971094536[m],Lenght of upper biffurcation
 L_1_upper_Phase_2,0.000258318889004907[m],Lenght of upper biffurcation
-L_2,0.0307272727272727[m],Length of Pipe_2
-L_3,0.0465454545454545[m],Length of Pipe_3
-L_factor,0.1,Factor of Length L_1 to determine the lenght of the lower biffurcation pipe
+L_2,0.0286838267667896[m],Length of Pipe_2
+L_2_Phase_2,0.0216778167062296[m],Lenght of the Pipe 1 in Phase 2
+L_3,0.035126414430607[m],Length of Pipe_3
+L_3_Phase_2,0.0349090909090909[m],Lenght of the Pipe 1 in Phase 2
+L_factor,0.142857142857143,Factor of Length L_1 to determine the lenght of the lower biffurcation pipe
 L_sensor,L_1/10,side of the sensor (square)
 M_Na,22.99[g/mol],Molar mass of Sodium
 N_Na,100,Number of released Sodium ions
@@ -57,10 +60,14 @@ P_u310_y,-0.000225406[m],y-Coordinates for P_u310
 P_u322_x,0.0210415[m],x-Coordinates for P_u322
 P_u322_y,-0.000225406[m],y-Coordinates for P_u322
 p0,4.4146[mbar],Pressure level at the inlet
-Pu23_x,0.0163494181209609[m],Width of Pipe 1
+Pu23_x,0.0205479375411011[m],Width of Pipe 1
+Pu23_x_Phase_2,0.0188014897615257[m],Width of Pipe 1
 Pu23_y,-0.0005[m],Width of Pipe 1
-Pu33_x,0.0163494181209609[m],Width of Pipe 1
+Pu23_y_Phase_2,-0.0005[m],Width of Pipe 1
+Pu33_x,0.0205479375411011[m],Width of Pipe 1
+Pu33_x_Phase_2,0.0188014897615257[m],Width of Pipe 1
 Pu33_y,0.0005[m],Width of Pipe 1
+Pu33_y_Phase_2,0.0005[m],Width of Pipe 1
 pulse_duration,100[ms],Pulse duration of the concentration at the Inlet 1.
 pulse_transition,50[ms],Pulse transition of the concentration at the Inlet 1.
 Q_inlet_CNN,5.0[ul/min],
@@ -69,17 +76,11 @@ r_out_1,2*radius_cylinder_1+r_in_1,See Eq. (41) in ref bicen2013system
 r_sensor,2[mm],Radius of the sensor
 radius_cylinder_1,20[um],Radius of the cilinder 1
 rho_Na,M_Na*c_Na,Density of Sodium
-time_delta,0.1[s],Simulation time step
-time_simul,200[s],Simulation duration
+time_delta,0.5[s],Simulation time step
+time_simul,100[s],Simulation duration
 varphi_2,1.51007[rad],Angle of Pipe 2
 varphi_3,1.85792[rad],Angle of Pipe 3
 w_1,0.001[m],Width of Pipe 1
 w_1_biff,w_1,width of the biffurcation
 w_2,0.001[m],Width of Pipe 2
 w_3,0.001[m],Width of Pipe 3
-L_2_Phase_2,0.0216778167062296[m],Lenght of the Pipe 1 in Phase 2
-L_3_Phase_2,0.0349090909090909[m],Lenght of the Pipe 1 in Phase 2
-Pu23_x_Phase_2,0.0188014897615257[m],Width of Pipe 1
-Pu23_y_Phase_2,-0.0005[m],Width of Pipe 1
-Pu33_x_Phase_2,0.0188014897615257[m],Width of Pipe 1
-Pu33_y_Phase_2,0.0005[m],Width of Pipe 1
