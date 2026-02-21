@@ -16,14 +16,14 @@ D_NaOH,5.3*10^(-9)[m^2/s],Diffusion coeff of Sodium Hydroxide in water
 D_Tartrazine,4.9e-10[mol/m^3],Updated inlet concentration.
 delta_Y,9.25187e-07[m],resolution in the Y-axis
 f_molecules,0.5,Factor of reduced number of molecules
-f_molecules_Phase_1,0.155245797146088,Factor of reduced number of molecules
+f_molecules_Phase_1,7.76797354176221e+51,Factor of reduced number of molecules
 f_molecules_Phase_2,0.375,Factor of reduced number of molecules
 height_pipe,36[um],height of pipes
 K_CH3COOH,1.8E-5*1E3[mol/m^3],equilibrium constant of Acetic Acid in Water
 K_water,1E-14*1E6[mol/m^3],equilibrium constant of H2O=H++OH-
 L_1,0.0202892176697184[m],Length of Pipe_1
 L_1_biff,L_1/2,length of the biffurcation
-L_1_branch,0.00021809416366499[m],Lenght of upper biffurcation
+L_1_branch,-0.0011867371919933[m],Lenght of upper biffurcation
 L_1_Phase_2,0.018524618053031[m],Lenght of the Pipe 1 in Phase 2
 L_1_upper,0.000430531481674846[m],Lenght of upper biffurcation
 L_1_upper_Phase_1,0.000294996971094536[m],Lenght of upper biffurcation
