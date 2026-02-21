@@ -84,3 +84,5 @@ w_1,0.001[m],Width of Pipe 1
 w_1_biff,w_1,width of the biffurcation
 w_2,0.001[m],Width of Pipe 2
 w_3,0.001[m],Width of Pipe 3
+Po7_x,0.00821244525728342[m],Po7_x
+Po7_y,0.0034101483358691[m],Po7_y
