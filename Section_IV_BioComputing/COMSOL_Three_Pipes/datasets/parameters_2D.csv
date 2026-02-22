@@ -17,7 +17,7 @@ D_Tartrazine,4.9e-10[mol/m^3],Updated inlet concentration.
 delta_Y,9.25187e-07[m],resolution in the Y-axis
 f_molecules,0.5,Factor of reduced number of molecules
 f_molecules_Phase_1,0.155245797146088,Factor of reduced number of molecules
-f_molecules_Phase_2,0.375,Factor of reduced number of molecules
+f_molecules_Phase_2,0.0302457971460879,Factor of reduced number of molecules
 height_pipe,36[um],height of pipes
 K_CH3COOH,1.8E-5*1E3[mol/m^3],equilibrium constant of Acetic Acid in Water
 K_water,1E-14*1E6[mol/m^3],equilibrium constant of H2O=H++OH-
@@ -86,10 +86,11 @@ w_2,0.001[m],Width of Pipe 2
 w_3,0.001[m],Width of Pipe 3
 Po7_x,0.0121996226347102[m],Po7_x
 Po7_y,0.00437985521874857[m],Po7_y
-Po6_x,0.00853786157962661[m],Po6_x
+Po6_x,0.0085378615796266[m],Po6_x
 Po6_y,0.00437985521874857[m],Po6_y
 Pinlet_1_x,0.0141779175537716[m],Pinlet_1_x
 Pinlet_1_y,0.000787394163664981[m],Pinlet_1_y
 Pinlet_2_x,0.0141079139824342[m],Pinlet_2_x
 Pinlet_2_y,0.000787394163664981[m],Pinlet_2_y
 alpha_branch,0.7,factor of w_1 for the biffurcation
+L_1_branch_array,3.70133094232687e-05[m],Lenght of upper biffurcation
