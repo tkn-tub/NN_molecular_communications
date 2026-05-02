@@ -4,9 +4,10 @@ This project develops microfluidic circuits in COMSOL to model their computation
 ## Description
 This project is a work in progress to explore the computational capabilites with microfluidic circuits.
 We aim to implement the linear and non-linear components of a 1D convolutional neural newtork (CNN) with the connection of various microfluidic pipes, as illustrated in Fig. 1.
+The digital signal processing (DSP) operations are synthetized with the properties of the flow of diluted species.
 The general idea is to synthetize the linear component of the CNN with the properties of the transport of diluted species, while the non-linear component with a chemical reaction.
-Specifically, the multiplication of coefficients with the inputs is interpreted with the reduction of the cocentration of species as they travel through the pipe.
-The propagation delay introduced by the pipe is directly corresponded with the delay on each branch of the CNN.
+Specifically, the multiplication of coefficients with the inputs is interpreted with the reduction of the concentration of species as they travel through the pipe.
+The propagation delay introduced by the pipe is directly corresponded with the delay on each branch of the CNN. 
 
 <!-- which is syntethized with the transport component of the microfluidic circuit.
 The nonlinear operation of the network $\sigma(y)$ is realized with a chemical reaction. -->
@@ -14,7 +15,7 @@ The nonlinear operation of the network $\sigma(y)$ is realized with a chemical r
 <figure>
     <p align="center">
         <table><tr><td bgcolor="white" align="center">
-            <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic.png?raw=true" alt="nn" width="500">
+            <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic.SVG?raw=true" alt="nn" width="500">
         </td></tr></table>
     </p>
 </figure>
