@@ -3,36 +3,157 @@ This project develops microfluidic circuits in COMSOL to model their computation
 
 ## Description
 This project is a work in progress to explore the computational capabilites with microfluidic circuits.
-We aim to implement the linear and non-linear components of a neuron by connecting various microfluidic pipes.
-As illustrated in Fig. 1, the linear component of the neuron as
+We aim to implement the linear and non-linear components of a 1D convolutional neural newtork (CNN) with the transport of diluted species guided through the connection of various microfluidic pipes, as illustrated in Fig. 1.
+The conception is to interpret the digital signal processing (DSP) operations with the properties of the flow of diluted species.
+Specifically, the multiplication of coefficients with the inputs is interpreted with the reduction of the concentration of species as they travel through the pipe.
+The propagation delay introduced by the pipe is directly corresponded with the delay on each branch of the CNN.
+In this way, the linear component of the CNN is synthetized with the properties of the transport of diluted species, while the non-linear component with a chemical reaction.
 
- ![sum](https://latex.codecogs.com/svg.image?\sum_{i=1}^{N}%20\omega_i%20x_i)     
 
- lies on the mobility component of the microfluidic circuit, while the nonlinear component is realized with a chemical reaction.
-
+<!-- which is syntethized with the transport component of the microfluidic circuit.
+The nonlinear operation of the network $\sigma(y)$ is realized with a chemical reaction. -->
 
 <figure>
     <p align="center">
-        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic.png?raw=true" alt="nn" width="500">
+        <table><tr><td bgcolor="white" align="center">
+            <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic.SVG?raw=true" alt="nn" width="500">
+        </td></tr></table>
     </p>
 </figure>
 <p align="center">
 Fig. 1: Illustration of the microfluidic circuit to realize a neuron.
 </p>
 
-The implemented microfluidic in COMSOL is illustrated in Fig. 2.
-The microfluidic consists of single pipe with a turn for a larger variability of the channel.
-The straight and turning paths account for the linear component in Eq. (1) and is developed within the first three compartments.
-The chemical reaction is developed in the last compartment of the pipe.
+The linear component of the CNN, is analytically described with the following convolution operation between the sequence of coefficients $\omega_n$ and the sequence to process $x_n$ as
+
+ ![sum](https://latex.codecogs.com/png.latex?\bg_white%20y_n=w_n\ast%20x_n=\sum_{i=1}^{N}%20\omega_i%20x_{n-i}.%20\qquad%20(1))
+
+The coefficients $\omega_i$'s, when interpreted as attenuators, are evaluated with the dispersion of molecules due to the diffusion of particles within a pipe.
+The delay is produced with the traveling time of particles along the pipe, which depends on the volumetric flow $Q$.
+Following this description the synthesis problem is formulated as evaluating the size of the pipes, i.e., lenght, width and depth, that produces the desired attenuation $\omega_i$ and the delay of $n$ units of time in one-to-one correspondence between the coefficients and the pipe.
+The output of this project is a fabrication and simulation in COMSOL of 3-coefficients CNN, as illustrated in Fig. 2.
 
 <figure>
+    <p align="center">
+        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/CNN_Sensor_Concentration_Phase_1.gif?raw=true" alt="nn" width="300">
+    </p>
+</figure>
+<p align="center">
+Fig. 2: Animation of the transport of particles in 3-pipes microfluidic design.
+</p>
+
+## Installation
+This simulation is developed in Matlab R2025b and in COMSOL Multiphysics 6.3, which needs to be installed on the local PC.
+The Matlab toolboxes used for this calculations is Symbolic Math Toolbox.
+In COMSOL, the physics included within this simulation are the following:
+
+- Chemical Species of Transport using the modules
+    
+        Reaction Engineering,
+        Chemical Reaction, and
+        Transport of Diluted Species.
+- Fluid Flow: Single-Phase Flow.
+
+## Usage
+
+This project synthesize the microfluidic pipes alternating between the calculation of the microfluidic geometry in Matlab and the numeric simulation in COMSOL.
+The synthesis is conceived along three phases to separately adjust the timing of pulses (phase 1), adjust their amplitude (phase 2), and include the hydraulic resistance due to the sensor chamber in phase 3.
+On each phase, the geometry is computed in the matlab code files `Synthesis_Three_Pipes_Phase_1.mlx`, `Synthesis_Three_Pipes_Phase_2.mlx`, and `Synthesis_Three_Pipes_Phase_3.mlx`, the simulations are all included in the COMSOL file `COMSOL_Three_Pipes_Phases_1_to_4.mph`, and the results are illustrated in the matlab files `Analyses_Three_Pipes_Phase_1.mlx`, `Analyses_Three_Pipes_Phase_2.mlx`, and `Analyses_Three_Pipes_Phase_3.mlx`.
+In COMSOL each phase is implemented in a separate component from `CNN_Phase_1` to `CNN_Phase_4`
+  
+
+- Phase 1: This phase synthetize the pipes to adjust the timing of each pulse within the pipes.
+The result of this phase is the COMSOL design illustrated in Fig. 2 (a), which include the pipes, the chemical reaction chamber and the sensor.
+The aim of this design is to evaluate the length and the width of each pipe such that the time difference between the peak of pulses is given by a predefined constant.
+All the parameters for the calculations are included within the `parameters_2D.csv` file, which is place within the Dataset folder, where `tau_sample` defines the target sampling time in the unit of seconds.
+Other variables are described within each variable entry's description of this csv file.
+The matlab code in `Synthesis_Three_Pipes_Phase_1.mlx`, evaluates the geometry of the pipes, which includes the coordinates points for each polygon, see the details within the description of the code.
+The output of this code are the files `polygon_bottom_Phase_1.csv`, `polygon_outer_Phase_1.csv`, `polygon_upper_Phase_1.csv`, and also updates coordinates points in `parameters_2D.csv` for connecting the mixer and the sensor in COMSOL.
+These files are all stored in the `dataset` folder.
+The polygon's file are used in the 2D geometry in COMSOL with the components of the same name to construct each polygon.
+The parameters file needs to be reloaded in COMSOL to update the coordinates for the mixer and the sensor.
+In COMSOL the simulation is separately conducted for the Velocity and the Concentration, both linkded with the Mutltiphysics.
+In the results these simulation studies are `Velocity_CNN_Phase_1` and `Concentration_CNN_Phase_1`, respectively.
+Simulation results for the concentration are used to compute the average concentration within the sensor chamber, see in `Derived Values` the module `c_CNN_Sensor_Phase_1`.
+This average concentraion isn exported to the file `c_CNN_Phase_1.csv` which is then imported and plotted in the matlab file `Analyses_Three_Pipes_Phase_1.mlx`.
+The result is the plot for the channel impulse response of the CNN as illustrated in Fig. 3 (b).
+As illustrated in this figure, peaks are spaced in almost $20$ s, which was the targeted sampling time.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/CNN_Sensor_Concentration_Phase_1.gif?raw=true" alt="Phase 1 simulation" width="350">
+      <br><em>(a) Phase 1 COMSOL simulation</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/result_Phase_1.svg?raw=true" alt="Phase 1 results" width="350">
+      <br><em>(b) Results</em>
+    </td>
+  </tr>
+</table>
+<p align="center">Fig. 3: Phase 1 results.</p>
+
+- Phase 2: This phase introduces an additional outlet in Pipe 1 in order to reduce its amplitude.
+The geometry is illustrated in Fig. 4 (a), where the mixer and the sensor has been removed to remove the impact of its hydraulic resistance.
+The aim with this design is to have a pulse-like profile, like illustrated in Fig. 4 (b).
+Departing from the design in Phase 1, this second phase computes the width and the amplitude of the outlet that removes the right amount of molecules from pipe 1.
+In this way, the peak of pipe 1 is reduced in comparison the design in phase 1, while preserving the sampling time. 
+To synthetize and numerically evaluate the geometry the procedure follows a similar cycle like in phase 1.
+The geometry is calculated in the matlab file `Synthesis_Three_Pipes_Phase_2.mlx`, and simulated within the component `CNN_Phase_2` in the COMSOL file.
+After running the Velocity and Concentration studies in COMSOL, see the studies `Velocity_CNN_Phase_2` and `Concentration_CNN_Phase_2`, the average concentration at the outlet is calculated with the Derived Values module `c_CNN_Phase_2`.
+This evaluation is exported to the file `c_CNN_Phase_2.csv`, then imported and plotted in the matlab file `Analyses_Three_Pipes_Phase_2.mlx`.
+The results are illustrated in Fig. 4 (b).
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/CNN_Sensor_Concentration_Phase_1.gif?raw=true" alt="Phase 1 simulation" width="350">
+      <br><em>(a) Phase 2 COMSOL simulation</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/result_Phase_2.svg?raw=true" alt="Phase 1 results" width="350">
+      <br><em>(b) Results</em>
+    </td>
+  </tr>
+</table>
+<p align="center">Fig. 4: Phase 2 results.</p>
+
+- Phase 3
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic_Phase_3.svg?raw=true" alt="Phase 1 simulation" width="350">
+      <br><em>(a) Phase 3 COMSOL simulation</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/result_Phase_2.svg?raw=true" alt="Phase 1 results" width="350">
+      <br><em>(b) Results</em>
+    </td>
+  </tr>
+</table>
+<p align="center">Fig. 5: Phase 3 results.</p>
+
+The Matlab code evaluates the length and width per pipe for a given constant inlet volumetric flow $Q$ and height of pipes.
+The volumetric flow is defined as $Q=2\mu\mathrm{L}/\min$, a value that follows the pressure pump used in the experimental part of this work, see a [link to the preasure pump technology](https://elveflow.com/microfluidic-products/microfluidics-flow-control-systems/ob1-pressure-controller/).
+The height is predefined by the sensor technology, which limits a height to a minimum of $50\, \mu\mathrm{m}$.
+
+The geometry computed by the Matlab code is introduced in COMSOL, which construct and simulate the transport of diluted species along the pipes, as illustrated in Fig. 2.
+This figure illustrates the connection of the three pipes, which emulates a 1D-CNN of three coefficients, and a sensor chamber (circular geometry) where the operations are measured.
+The sensor component is simulated with the evaluation of the pH levels in COMSOL.
+
+
+
+### Implementing the linear component
+
+<!--<figure>
     <p align="center">
         <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic_animation.gif?raw=true" alt="nn" width="300">
     </p>
 </figure>
 <p align="center">
 Fig. 2: Animation of the variability of the concentration.
-</p>
+</p>-->
 
 The flow within the pipe is defined with water H2O as the material, the water fluid is forced to keep a velocity $v_0$ at the inlet.
 The pipe comprises two inlets, one within the first compartment and a second one on the top wall of the last compartment.
@@ -45,16 +166,7 @@ This simulation also includes a time variable concentration at the Inlet 1.
 The Acetic Acid is feeded in a form of pulse with the concentration level.
 This allows to model pulse-based transmissions within the microfluidic channel.
 
-## Installation
-This simulation is developed in COMSOL Multiphysics 6.3.
-The physics included within this simulation are the following:
 
-- Chemical Species of Transport using the modules
-    
-        Reaction Engineering,
-        Chemical Reaction, and
-        Transport of Diluted Species.
-- Fluid Flow: Single-Phase Flow.
 
 ## Usage
 
