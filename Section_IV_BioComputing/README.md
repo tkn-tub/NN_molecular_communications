@@ -4,11 +4,11 @@ This project develops microfluidic circuits in COMSOL to model their computation
 ## Description
 This project is a work in progress to explore the computational capabilites with microfluidic circuits.
 We aim to implement the linear and non-linear components of a neuron by connecting various microfluidic pipes.
-As illustrated in Fig. 1, the linear component of the neuron as
+As illustrated in Fig. 1, the linear component of the neuron, which is defined by
 
- ![sum](https://latex.codecogs.com/svg.image?\sum_{i=1}^{N}%20\omega_i%20x_i)     
+ ![sum](https://latex.codecogs.com/svg.image?\bg{white}\sum_{i=1}^{N}%20\omega_i%20x_i)     
 
- lies on the mobility component of the microfluidic circuit, while the nonlinear component is realized with a chemical reaction.
+is syntethized with the transport component of the microfluidic circuit, while the nonlinear operation of the network $\sigma(x)$ is realized with a chemical reaction.
 
 
 <figure>
