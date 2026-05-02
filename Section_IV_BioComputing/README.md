@@ -3,36 +3,50 @@ This project develops microfluidic circuits in COMSOL to model their computation
 
 ## Description
 This project is a work in progress to explore the computational capabilites with microfluidic circuits.
-We aim to implement the linear and non-linear components of a neuron by connecting various microfluidic pipes.
-As illustrated in Fig. 1, the linear component of the neuron, which is defined by
+We aim to implement the linear and non-linear components of a 1D convolutional neural newtork (CNN) by connecting various microfluidic pipes, as illustrated in Fig. 1.
+The general idea is to synthetize the linear component of the CNN with the properties of the transport of diluted species, while the non-linear component with a chemical reaction.
 
- ![sum](https://latex.codecogs.com/svg.image?\bg{white}\sum_{i=1}^{N}%20\omega_i%20x_i)     
-
-is syntethized with the transport component of the microfluidic circuit, while the nonlinear operation of the network $\sigma(x)$ is realized with a chemical reaction.
-
+<!-- which is syntethized with the transport component of the microfluidic circuit.
+The nonlinear operation of the network $\sigma(y)$ is realized with a chemical reaction. -->
 
 <figure>
     <p align="center">
-        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic.png?raw=true" alt="nn" width="500">
+        <table><tr><td bgcolor="white" align="center">
+            <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic.png?raw=true" alt="nn" width="500">
+        </td></tr></table>
     </p>
 </figure>
 <p align="center">
 Fig. 1: Illustration of the microfluidic circuit to realize a neuron.
 </p>
 
+## Implementing the linear component
+
+The linear component of the CNN, is analytically described with the following equation
+
+ ![sum](https://latex.codecogs.com/png.latex?\bg_white%20y_n=\sum_{i=1}^{N}%20\omega_i%20x_{n-i}.%20\qquad%20(1))
+
+which develops a weigthed ($\omega_i$) sum of the delayed inputs $x_{n-i}$.
+The coefficients $\omega_i$'s are interpreted as attenuators, which is evaluated with the dispersion due to the diffusion of particles within a pipe.
+The delay is produced with the traveling time of particles along the pipe, which depends on the volumetric flow $Q$.
+
+Following this description the synthesis problem is formulated as evaluating the size of the pipes, i.e., lenght, width and depth, that produces the desired attenuation $\omega_i$ and the delay of $n$ units of time.
+The code in this folder computes the length and width for a given constant inlet volumetric flow $Q$ and height of pipes.
+The volumetric flow is defined as $Q=2\mu\mathrm{L}/\min$, a value that follows the pressure pump used in the experimental part of this work, see a link to the preasure pump technology [here](https://elveflow.com/microfluidic-products/microfluidics-flow-control-systems/ob1-pressure-controller/).
+
 The implemented microfluidic in COMSOL is illustrated in Fig. 2.
 The microfluidic consists of single pipe with a turn for a larger variability of the channel.
 The straight and turning paths account for the linear component in Eq. (1) and is developed within the first three compartments.
 The chemical reaction is developed in the last compartment of the pipe.
 
-<figure>
+<!--<figure>
     <p align="center">
         <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/microfluidic_animation.gif?raw=true" alt="nn" width="300">
     </p>
 </figure>
 <p align="center">
 Fig. 2: Animation of the variability of the concentration.
-</p>
+</p>-->
 
 The flow within the pipe is defined with water H2O as the material, the water fluid is forced to keep a velocity $v_0$ at the inlet.
 The pipe comprises two inlets, one within the first compartment and a second one on the top wall of the last compartment.

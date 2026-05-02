@@ -1,5 +1,5 @@
 alpha,0.7,factor of w_1 for the biffurcation
-alpha_branch,0.70012012012012,factor of w_1 for the biffurcation
+alpha_branch,0.80018018018018,factor of w_1 for the biffurcation
 alpha_Phase_1,0.7,factor of w_1 for the biffurcation
 alpha_Phase_2,0.7,factor of w_1 for the biffurcation
 angle_Biff,pi/4,angle of the biffurcation
@@ -17,14 +17,14 @@ D_NaOH,5.3*10^(-9)[m^2/s],Diffusion coeff of Sodium Hydroxide in water
 D_Tartrazine,4.9e-10[mol/m^3],Updated inlet concentration.
 delta_Y,9.25187e-07[m],resolution in the Y-axis
 f_molecules,0.5,Factor of reduced number of molecules
-f_molecules_Phase_1,0.121057767007723,Factor of reduced number of molecules
+f_molecules_Phase_1,0.256789202743655,Factor of reduced number of molecules
 f_molecules_Phase_2,0.0302457971460879,Factor of reduced number of molecules
 height_pipe,50[um],height of pipes
 K_CH3COOH,1.8E-5*1E3[mol/m^3],equilibrium constant of Acetic Acid in Water
 K_water,1E-14*1E6[mol/m^3],equilibrium constant of H2O=H++OH-
 L_1,0.0146239041044221[m],Length of Pipe_1
 L_1_biff,L_1/2,length of the biffurcation
-L_1_branch,0.000161694841583631[m],Lenght of upper biffurcation
+L_1_branch,0.000221282795362805[m],Lenght of upper biffurcation
 L_1_branch_array,3.70133094232687e-05[m],Lenght of upper biffurcation
 L_1_Phase_2,0.018524618053031[m],Lenght of the Pipe 1 in Phase 2
 L_1_upper,0.000430531481674846[m],Lenght of upper biffurcation
