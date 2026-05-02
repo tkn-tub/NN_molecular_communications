@@ -58,8 +58,24 @@ In COMSOL, the physics included within this simulation are the following:
 
 This project synthesize the microfluidic pipes alternating between the calculation of the microfluidic geometry in Matlab and the numeric simulation in COMSOL.
 The synthesis is conceived along three phases to gradually: i) Adjust the timing (phase 1); ii) Adjust the amplitude (phase 2) with the timing already fixed in phase 1; and iii) Includes the hydraulic resistance to the design as in phase 3.
+On each phase, the geometry is computed in the matlab code files `Synthesis_Three_Pipes_Phase_1.mlx`, `Synthesis_Three_Pipes_Phase_2.mlx`, and `Synthesis_Three_Pipes_Phase_3.mlx`, and the simulations are all included in the COMSOL file `COMSOL_Three_Pipes_Phases_1_to_4.mph`.
+All Matlab codes as well as the COMSOL simulation are placed within the code file,  
 
 - Phase 1
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/CNN_Sensor_Concentration_Phase_1.gif?raw=true" alt="Phase 1 simulation" width="350">
+      <br><em>(a) COMSOL simulation</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/result_Phase_1.SVG?raw=true" alt="Phase 1 results" width="350">
+      <br><em>(b) Results</em>
+    </td>
+  </tr>
+</table>
+<p align="center">Fig. 3: Phase 1 results.</p>
 
 The Matlab code evaluates the length and width per pipe for a given constant inlet volumetric flow $Q$ and height of pipes.
 The volumetric flow is defined as $Q=2\mu\mathrm{L}/\min$, a value that follows the pressure pump used in the experimental part of this work, see a [link to the preasure pump technology](https://elveflow.com/microfluidic-products/microfluidics-flow-control-systems/ob1-pressure-controller/).
