@@ -3,8 +3,10 @@ This project develops microfluidic circuits in COMSOL to model their computation
 
 ## Description
 This project is a work in progress to explore the computational capabilites with microfluidic circuits.
-We aim to implement the linear and non-linear components of a 1D convolutional neural newtork (CNN) by connecting various microfluidic pipes, as illustrated in Fig. 1.
+We aim to implement the linear and non-linear components of a 1D convolutional neural newtork (CNN) with the connection of various microfluidic pipes, as illustrated in Fig. 1.
 The general idea is to synthetize the linear component of the CNN with the properties of the transport of diluted species, while the non-linear component with a chemical reaction.
+Specifically, the multiplication of coefficients with the inputs is interpreted with the reduction of the cocentration of species as they travel through the pipe.
+The propagation delay introduced by the pipe is directly corresponded with the delay on each branch of the CNN.
 
 <!-- which is syntethized with the transport component of the microfluidic circuit.
 The nonlinear operation of the network $\sigma(y)$ is realized with a chemical reaction. -->
@@ -20,24 +22,32 @@ The nonlinear operation of the network $\sigma(y)$ is realized with a chemical r
 Fig. 1: Illustration of the microfluidic circuit to realize a neuron.
 </p>
 
-## Implementing the linear component
+### Implementing the linear component
 
 The linear component of the CNN, is analytically described with the following equation
 
- ![sum](https://latex.codecogs.com/png.latex?\bg_white%20y_n=\sum_{i=1}^{N}%20\omega_i%20x_{n-i}.%20\qquad%20(1))
+ ![sum](https://latex.codecogs.com/png.latex?\bg_white%20y_n=w_n\ast%20x_n=\sum_{i=1}^{N}%20\omega_i%20x_{n-i}.%20\qquad%20(1))
 
-which develops a weigthed ($\omega_i$) sum of the delayed inputs $x_{n-i}$.
+which develops a weigthed ($\omega_i$) sum of the delayed input sequence $x_{n}$.
 The coefficients $\omega_i$'s are interpreted as attenuators, which is evaluated with the dispersion due to the diffusion of particles within a pipe.
 The delay is produced with the traveling time of particles along the pipe, which depends on the volumetric flow $Q$.
 
 Following this description the synthesis problem is formulated as evaluating the size of the pipes, i.e., lenght, width and depth, that produces the desired attenuation $\omega_i$ and the delay of $n$ units of time.
-The code in this folder computes the length and width for a given constant inlet volumetric flow $Q$ and height of pipes.
-The volumetric flow is defined as $Q=2\mu\mathrm{L}/\min$, a value that follows the pressure pump used in the experimental part of this work, see a link to the preasure pump technology [here](https://elveflow.com/microfluidic-products/microfluidics-flow-control-systems/ob1-pressure-controller/).
+Each coefficient implements a pipe
+The Matlab code in this folder computes the length and width for a given constant inlet volumetric flow $Q$ and height of pipes.
+The volumetric flow is defined as $Q=2\mu\mathrm{L}/\min$, a value that follows the pressure pump used in the experimental part of this work, see a [link to the preasure pump technology](https://elveflow.com/microfluidic-products/microfluidics-flow-control-systems/ob1-pressure-controller/).
+The height is predefined by the sensor technology, which limits a height to a minimum of $50\, \mu\mathrm{m}$.
 
-The implemented microfluidic in COMSOL is illustrated in Fig. 2.
-The microfluidic consists of single pipe with a turn for a larger variability of the channel.
-The straight and turning paths account for the linear component in Eq. (1) and is developed within the first three compartments.
-The chemical reaction is developed in the last compartment of the pipe.
+The design in this folder is conceived for three pipes is later implemented in COMSOL is illustrated in Fig. 2.
+
+<figure>
+    <p align="center">
+        <img src="https://github.com/tkn-tub/NN_molecular_communications/blob/main/Figures/CNN_Sensor_Concentration_Phase_1.gif?raw=true" alt="nn" width="300">
+    </p>
+</figure>
+<p align="center">
+Fig. 2: Animation of the transport of particles in 3-pipes microfluidic design.
+</p>
 
 <!--<figure>
     <p align="center">
